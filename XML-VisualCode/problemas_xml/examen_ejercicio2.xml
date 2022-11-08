@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!DOCTYPE festivales>
+
+<festivales>
+    <!-- He usado esta etiqueta por si hay mas de un festival y debajo añadir
+cada festival que se realice-->
+    <festival>
+        <lugar edicion-festival="II" siglas="FIB" año="1996">Benacasim</lugar> <!-- Esta
+            etiqueta la pongo para ir metiendo los lugares en donde están los festivales-->
+
+
+        <dias>
+            <!-- Separo el cartel por dias, vemos que este festival tiene 3 dias-->
+
+            <primer_dia dia="Viernes" fecha="2">
+                <!-- En esta etiqueta voy poniendo dia por dia los artistas que aparecen en el cartel, añado atributos
+                como "dia" y "fecha" que es un dato relevante a la hora de consultar la informacion-->
+                <cartel>
+                    <!-- Esta etiqueta es para el cartel y artistas-->
+                    <cabeza_de_cartel>
+                        <!-- Antes que nada, creo otra etiqueta para resaltar que hay artistas cabeza de cartel, suelen ser los artistas más famosos-->
+                        <grupo>
+                            <destacar tipo="negrita" color="blanco">Tea Servants</destacar> <!-- Aqui pongo está etiqueta para hacer saber que el nombre está resaltado en negrita-->
+                        </grupo>
+                        <grupo>
+                            <destacar tipo="negrita">Dover</destacar>
+                        </grupo>
+                    </cabeza_de_cartel>
+
+                    <artistas>
+                        <!-- Aqui en artistas, pongo el resto de artistas del cartel, mediante la etiqueta grupos-->
+                        <grupos>Los paletas</grupos>
+                        <grupos>Velvet Crush</grupos>
+                        <grupos>The bluetones</grupos>
+                    </artistas>
+                </cartel>
+            </primer_dia>
+
+
+            <segundo_dia dia="Sabado" fecha="3">
+                <cartel>
+                    <cabeza_de_cartel>
+                        <grupo>
+                            <destacar tipo="negrita" color="blanco">Baby Powder</destacar>
+                        </grupo>
+                        <grupo>
+                            <destacar tipo="negrita" color="blanco">Medication</destacar>
+                        </grupo>
+                    </cabeza_de_cartel>
+
+                    <artistas>
+                        <grupos>Manta Ray</grupos>
+                        <grupos>Venas Pluton</grupos>
+                        <grupos>Garbage</grupos>
+                    </artistas>
+                </cartel>
+            </segundo_dia>
+
+
+            <tercer_dia dia="Domingo" fecha="4">
+                <cartel>
+                    <cabeza_de_cartel>
+                        <grupo>
+                            <destacar tipo="negrita" color="blanco">Phantom Dog</destacar>
+                        </grupo>
+                        <grupo>
+                            <destacar tipo="negrita" color="blanco">Minema</destacar>
+                        </grupo>
+                    </cabeza_de_cartel>
+
+                    <artistas>
+                        <grupos>Beef</grupos>
+                        <grupos>Silvania</grupos>
+                        <grupos>Ruby</grupos>
+                    </artistas>
+                </cartel>
+            </tercer_dia>
+
+        </dias>
+
+
+    </festival>
+</festivales>

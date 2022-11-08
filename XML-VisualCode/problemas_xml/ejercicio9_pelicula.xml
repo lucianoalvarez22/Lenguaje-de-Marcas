@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas>
+<peliculas>
+    <pelicula titulo="En los márgenes" director="Juan Diego Botto" año="2022" genero="drama">
+    <!--el año podría ponerse como elemento y no tener tantos atributos-->
+    <pais cod="ESP"/>
+    <!-- podía haber más países y añadiriamos <pais cod="ITA"/>-->
+    <reparto>
+    <actor nombre="Luis Tosar"/>
+    <actriz nombre="Penélope Cruz"/>
+    <actor nombre="Juan Diego Botto"/>
+    </reparto>
+    <!-- vimos diferentes posibilidades para el reparto, incluso
+    <reparto actor="Luis Tosar"/>
+    <reparto actriz="Penélope Cruz"/>
+    -->
+    <duracion unidad="min">103</duracion>
+    <calificacion edad="12">No recomendada a menores de 12 años</calificacion>
+    <cartelera fuente="peliculas/enelmargen.png"/>
+    <sipnosis>Es una película sobre la familia, el amor y la solidaridad. </sipnosis>
+    </pelicula>
+</peliculas>

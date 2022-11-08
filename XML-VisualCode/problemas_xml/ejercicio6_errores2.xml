@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE libros>
+
+<libros> 
+    <libro id="quijote"> 
+    <titulo>El Quijote</titulo> 
+    <autor nombre="cervantes" > </autor>
+    <descripcion>Es el mejor libro de cervantes.</descripcion> 
+    </libro>
+</libros>
+    
+<!-- 
+•	El valor "cervantes" es un atributo de nombre y debe ir entre comillas.
+•	No se permiten atributos repetidos.
+•	La etiqueta autor debe cerrarse.
+•	Las etiquetas son sensibles a las mayúsculas y también la etiqueta raíz. no debe cerrase </Libros> sino </libros>.
+•	Una etiqueta de cierre termina con >.
+
+-->

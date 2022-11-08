@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE documento>
+<documento>
+    <p>
+        Mi Primer <destacar importancia="1">documento XML</destacar>
+    </p>
+    <p>Comienza con la etiqueta </p>
+    <p>A continuacion colocamos un elemento sin contenido</p>
+    <imagen fichero="imagen.gif"/>
+</documento>
+<!-- 
+•	El valor de los atributos debe ir entre comillas.  El valor 1 es un valor del atributo importancia.
+•	Las etiquetas deben cerrarse con >.
+•	El documento raíz (documento) debe ser único.
+•	Todas las etiquetas han de cerrarse.  La etiqueta imagen no se cierra.
+
+-->

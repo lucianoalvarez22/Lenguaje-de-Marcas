@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE arboles>
+
+<arboles>
+    <arbol oficial="Acer monspessulanum">
+        <nombreComun otros="Arce menor ">Arce de Montpellier</nombreComun>
+        <tipoVegetacion tipo="Caducifolio" />
+        <alturaalturaEnMetros min="6" max="10"/>
+        <forma tipo="copa esférica">Tronco principal recto con bifurcaciones. Ramaje colgante</forma>
+        <color color="verde">Haz verde brillante, envés verde blanquecino</color>
+        <resistenciaHeladas unidad="C" umbral="-15">Heladas fuertes</resistenciaHeladas>
+    </arbol>
+</arboles>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportistas>
+<deportistas>
+    <deportista deporte="Atletismo" nombre="Ana Peleteiro"/>
+    <deportista deporte="Natación" nombre="Luis Domínguez"/>
+</deportistas>
+<!-- Una vez corregidos los errores puede aportarse una solución razonada. Esta es una de las que vimos en clase. -->

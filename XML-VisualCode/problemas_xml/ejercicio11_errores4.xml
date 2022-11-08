@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mundiales>
+<mundiales>
+    <mundial año="1982">
+        <pais>España</pais>
+    </mundial>
+    <mundial año="1986">
+        <pais>México</pais>
+    </mundial>
+</mundiales>
+<!-- Una vez corregidos los errores puede aportarse una solución razonada. Esta es una de las que vimos en clase. podría haberse solucionado como el 10.- -->
+    

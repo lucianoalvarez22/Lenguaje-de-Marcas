@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedido>
+
+<pedido codigo="A2023" fecha="19/05/2000">
+    <destinatario>
+        <cliente>Juan Delgado Martínez</cliente>
+        <direccion>calle Barco 4, tercer piso, letra A</direccion>
+    </destinatario>
+    <artículo>Bicicleta</artículo>
+</pedido>

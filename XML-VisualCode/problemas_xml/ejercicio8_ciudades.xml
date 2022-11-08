@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ciudades>
+
+<ciudades>
+
+    <ciudad nombre="Sevilla" comunidad="Andalucía" gentilicio="sevillano">
+        <!-- Podría haberse incluido nombre como elemento ya que etá vinculado al estar dentro de <ciudad comunidad="Andalucía" gentilicio="sevillano"><nombre>Sevilla</nombre></ciudad> -->
+        <monumentos>
+            <monumento nombre="Giralda" estilo="almohade" siglo="XII" uso="torre"/>
+            <monumento nombre="Catedral" estilo="gótico" siglo="XV" uso="religioso"/>
+        </monumentos>
+    </ciudad>
+    
+        <ciudad nombre="Jaén" comunidad="Andalucía" gentilicio="jienense">
+        <monumentos>
+            <monumento nombre="Castillo de Santa Catalina" estilo="medieval" siglo="XIII" uso="defensivo"/>
+        </monumentos>
+    </ciudad>
+
+</ciudades>
+            
+
+
+            

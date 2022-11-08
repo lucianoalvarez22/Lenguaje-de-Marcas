@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE libros>
+<libros>
+ <libro id="quijote"> <!-- Primer libro de la biblioteca -->
+ <titulo>El Quijote</titulo>
+ <autor apellido1="Cervantes" apellido2 = "Saavedra"/>
+ <descripcion>Es el mejor libro de cervantes.</descripcion>
+ </libro>
+</libros>
+
+
+<!-- En primer lugar NO puede ir un comentario arriba del prólogo
+así que es lo primero que he quitado-->
+
+<!--En la primera etiqueta, "libros", también hay otro error ya que la etiqueta de cierre "Libros"
+empieza en mayúscula -->
+
+<!-- Otro error está en la etiqueta "autor", dentro hay dos atributos que se repiten. 
+Y los atributos nunca pueden repetirse en una misma etiqueta y evidentemente las comillas
+están mal puestas.-->
+
+<!-- He cambiado los atributos apellidos por "apellido1" y "apellido2" para que se 
+diferencie y que sea, a mi parecer, mas fácil de buscar en una base de datos-->
+
+<!-- La etiqueta "autor" no tiene ningun elemento dentro, solo tiene atributos. Por lo
+que se puede poner como una sola etiqueta de cierre-->

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<!DOCTYPE bandeja-entrada>
+
+<bandeja-entrada>
+
+    <correos>
+        <remitente>
+            <nombre>Luciano Alvarez</nombre>
+            <correo_electronico>luciano@gmail.com</correo_electronico>
+            <asunto>Trabajo importante</asunto>
+
+            <nombre>Juan Alvarez</nombre>
+            <correo_electronico>juan@gmail.com</correo_electronico>
+            <asunto>Sin relevancia</asunto>
+        </remitente>
+
+        <destinatario añadir_asunto = "opcional">
+            <nombre>Alexis Alvarado</nombre>
+            <correo_electronico>alexis@gmail.com</correo_electronico>
+
+            <nombre>Juan Alvarado</nombre>
+            <correo_electronico>Juan@gmail.com</correo_electronico>
+        </destinatario>
+
+        <cuerpo>
+            <parrafo>Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.</parrafo>
+            <parrafo>
+                Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.Texto de relleno. Texto de relleno.
+                Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.
+            </parrafo>
+            <parrafo>Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.</parrafo>
+        </cuerpo>
+
+        <ficheros adjuntoT="True" adjuntoF = "False">
+            <archivo peso="30KB" tipo="extension"/>
+        </ficheros>
+
+
+    </correos>
+</bandeja-entrada>
+
+
+<!-- He empezado con la etiqueta bandeja de entrada como raiz y luego he añadido la etiqueta
+correos en donde iran todos los remitentes y los destinatarios-->
+
+<!-- Cada etiqueta remitente contendra la informacion de la persona que remite, al igual
+que la etiqueta de destinatario, cada uno con sus nombres y correos electronicos con la unica
+diferencia que en la etiqueta de "Remitente" he añadido la etiqueta asunto. En la etiqueta de destinatario
+he puesto "añadir asunto= opcional" por si el destinatario quiere cambiar el asunto-->
+
+<!-- El cuerpo lo he saparado en 4 parrafos con texto de relleno. En el ultimo parrafo le he indicado que lleva un fichero adjunto
+Y sin contenido dentro de la etiqueta, por eso la he cerrado. -->
+
+<!-- Por ultimo he creado una etiqueta ficheros en donde he colocado dos atributos de true o false en caso de que haya archivo adjuntos o no
+Dentro de ficheros he puesto una etiqueta "archivo" (el cual no tiene elemento dentro) en el que mediante atributos he indicado el peso del contenido y el tipo de archivo indicandolo mediante
+la extension-->

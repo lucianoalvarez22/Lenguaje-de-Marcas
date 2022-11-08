@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE textos>
+
+<textos>
+
+    <texto autor="Casimiro Ynoteveo Pi" titulo="El teatro y sus influencias">
+        <!-- la idea es plasmar con marcas todo lo que contiene el texto, podemos entrar en el detalle del párrafo o ser más genéricos-->
+
+        <presentacion>
+            <parrafo>Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.</parrafo>
+            <parrafo>Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. <destacar tipo="subrayado">Texto de relleno. Texto de relleno.</destacar> Texto de relleno. Texto de relleno. Texto de relleno.</parrafo>
+        </presentacion>
+
+        <nudo>
+            <parrafo>Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.</parrafo>
+            <parrafo>Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. <destacar tipo="negrita">Texto de relleno. Texto de relleno.</destacar>Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.</parrafo>
+            <parrafo>Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.</parrafo>
+        </nudo>
+
+        <desenlace>
+            <parrafo>Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno. Texto de relleno.</parrafo>
+        </desenlace>
+
+    </texto>
+    
+</textos>
+<!-- Aunque el ejercicio tenía un sólo texto se puede preparar para hacer un recopilatorio de textos -->
+<!-- otra posibilidad sería haber usado presentación, nudo y desenlace como atributos de un elemento bloque
+<bloque tipo="presentación">
+    <parrafo>bla bla bla bla</parrafo>
+    <parrafo>bla bla bla bla</parrafo>
+</bloque>
+<bloque tipo="nudo">
+    <parrafo>bla bla bla bla</parrafo>
+    <parrafo>bla bla bla bla</parrafo>
+    <parrafo>bla bla bla bla</parrafo>
+</bloque>
+<bloque tipo="desenlace">
+    <parrafo>bla bla bla bla</parrafo>
+</bloque>
+-->
