@@ -34,7 +34,7 @@
 
     <div>
         <label for="poblacion">Poblacion</LABEL>
-        <select id="poblacion"> <!---probar poniendo multiple-->
+        <select id="poblacion" name="poblacion" multiple size="3"> <!---probar poniendo multiple-->
             <option value="ali">Alicante</option>
             <option value="sev">Sevilla</option>
             <option value="cad">Cadiz</option>
@@ -43,7 +43,8 @@
     </div>
 
     <div>
-        Descripción: <textarea id="comentarios" maxlength="100"></textarea>
+        <label for="comentarios">Descripcion:</label>
+        <textarea id="comentarios" maxlength="100" rows="6" cols="60"></textarea>
     </div>
 
     <div>
