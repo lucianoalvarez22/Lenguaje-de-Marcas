@@ -1,0 +1,17 @@
+p {
+    color: red;
+}
+
+p.grande {
+    color: aqua;
+    font-size: 150%;
+}
+
+section.grande {
+    color: blue;
+    font-size: 200%;
+}
+
+#principal {
+    color: brown;
+}

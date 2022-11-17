@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Martes 8 Nov</title>
+</head>
+<body>
+    <!-- FORMULARIO BASICO SIN SEMANTICA -->
+    <h1>Formulario general</h1>
+    <form action="control.html" method="post" autocomplete="off"> <!--Post siempre y en ACTION la pagina destino o si se deja en blanco no pasa nada || AUTOCOMPLETE para que NO salga el historial-->
+        <div>
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario"> <!--En NAME se pone el nombre de la variable || ID para el identificador y para CSS || EL LABEL ES PARA RELACIONAR LA ETIQUETA DE LA CAJA (for debe ser igual que el id, en este caso, "usuario")-->
+        </div> <!--Div para meterlo en una caja en bloque-->
+        <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" value="Pepe" required autofocus readonly> <!--El value en un input text te aparece dentro de la caja el valor que le has indicado || El REQUIRED es para que un campo sea obligatorio, sino no te deja enviar nada || AUTOFOCUS para poner el foco en el campo que quiera || Con READONLY NO te deja cambiar lo que hay en el campo-->
+        </div>
+
+        <div>
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" id="apellidos" minlength="3" maxlength="7" title="Escriba una apellido" placeholder="Minimo 3-Maximo7"> <!-- MINLENGTH Para el minimo de letras y MAX para el maximo de letras que te deja poner || PlaceHolder sale un cartel en el campo para darte una informacion y al hacer click desaparece-->
+        </div>
+
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" min="18" value="18" step="5"> <!--MIN en este caso nos dice que la edad minima es 18 || STEP es para ir SALTANDO de 5 en 5-->
+        </div>
+
+        <div>
+            <label for="clave">Clave</label>
+            <input type="password" name="clave" id="clave"> <!--INPUT PARA CONTRASEÑAS-->
+        </div>
+
+        <div>
+            <label for="correo">Correo electronico</label>
+            <input type="email" name="correo" id="correo"> <!--INPUT PARA EMAIL-->
+        </div>
+
+        <div>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha" id="fecha"> <!--INPUT PARA FECHA-->
+        </div>
+
+        <div>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color" value=""> <!--INPUT PALETA DE COLORES-->
+        </div>
+        
+        <div>
+            <h2>Elegir un turno de trabajo</h2>
+            <input type="radio" id="mañana" name="turno" vale="M" checked><label for="mañana">Mañana</label>
+            <input type="radio" id="tarde" name="turno" value="T"><label for="tarde">Tarde</label>
+            <!--INPUT DE ELECCION DE ENTRE DOS OPCIONES ||NAME TURNO EN LOS DOS LADOS Y CON VALOR M(MAÑANA) O T(TARDE) || CON CHECKED SALE MARCADO POR DEFECTO LO QUE QUERAMOS-->
+        </div>
+
+        <div>
+            <h2>Preferencias en el turno de trabajo</h2>
+            <input type="checkbox" id="primer" name="turno1">
+            <label for="primer">Primero</label>
+
+            <input type="checkbox" id="segundo" name="turno2">
+            <label for="segundo">Segundo</label>
+
+            <input type="checkbox" id="tercer" name="turno3">
+            <label for="tercer">Tercero</label>
+
+            <!--CON CHECKBOX NOS DEJA ELEGIR VARIAS OPCIONES Y CON NAME SE ENVIA CUANTOS TURNOS ESTÁS ELIGIENDO-->
+        </div>
+
+
+
+        <div>
+            <input type="submit" value="Dale Click"> <!--INPUT DE ENVIAR-->
+            <input type="reset" value="BORRAR"> <!--INPUT DE LIMPIAR EL FORMULARIO-->
+        </div>
+       
+    </form>
+
+    
+</body>
+</html>
