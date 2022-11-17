@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio15</title>
+</head>
+<body>
+
+    <h1>Diferencias entre type="checkbox" y type="radio"</h1>
+    <h2>type="checkbox"</h2>
+    <p>Se usa en casa INPUT un name distinto porque hay que enviar todas las variables marcadas-</p>
+    <p>¿Cuales de estos formatos usas mas?</p>
+
+    <div>
+        <label for="jpg">JPG</LABEL>
+        <input type="checkbox" id="jpg"
+		value="jpg">
+		<label for="png">PNG</LABEL>
+        <input type="checkbox" id="png" name="png"
+        value="png">
+        <label for="gif">GIF</LABEL>
+        <input type="checkbox" id="gif" name="gif"
+        value="gif">
+    </div>
+
+    <h2>type="radio"</h2>
+    <p>Se usa en cada INPUT el mismo name porque solo hay que enviar una, la que se marque</p>
+    <p>¿Cual es tu formato favorito?</p>
+    <div>
+		<label for="jpg">JPG</LABEL>
+        <input type="radio" id="jpg" name="formato" value="JPG">
+		<label for="png">PNG</LABEL>
+		<input type="radio" id="png" name="formato" value="PNG">
+		<label for="gif">GIF</LABEL>
+		<input type="radio" id="gif" name="formato" value="GIF">
+    </div>
+
+    <div>
+        <input type="submit" value="Enviar consulta">
+        <input type="reset" value="Restablecer">
+    </div>
+    
+</body>
+</html>
