@@ -21,9 +21,10 @@
     </div>
 
     <div>
-        <label for="">Sexo:</label> <!--No sé qué poner en el FOR -->
-        <input type="radio" id="hombre" name="sexo" vale="H" checked><label for="hombre">Hombre</label>
-        <input type="radio" id="mujer" name="sexo" value="M"><label for="mujer">Mujer</label>
+        <input type="radio" id="hombre" name="sexo" vale="H">
+        <label for="hombre">Hombre</label>
+        <input type="radio" id="mujer" name="sexo" value="M">
+        <label for="mujer">Mujer</label>
     </div>
 
     <div>
@@ -34,7 +35,7 @@
 
     <div>
         <label for="poblacion">Poblacion</LABEL>
-        <select id="poblacion" name="poblacion" multiple size="3"> <!---probar poniendo multiple-->
+        <select id="poblacion" name="poblacion">
             <option value="ali">Alicante</option>
             <option value="sev">Sevilla</option>
             <option value="cad">Cadiz</option>
@@ -43,20 +44,17 @@
     </div>
 
     <div>
-        <label for="comentarios">Descripcion:</label>
-        <textarea id="comentarios" maxlength="100" rows="6" cols="60"></textarea>
+        Descripcion:<textarea id="comentarios" maxlength="100" rows="6" cols="60"></textarea>
     </div>
 
     <div>
-        <input type="checkbox" id="DeseoSI"
-		value="informacion" checked name="informacion">
-        <label for="DeseoSI">Deseo recibir informacion sobre novedades y ofertas</label>
+        <input type="checkbox" id="info" name="info" required>
+        <label for="info">Deseo recibir informacion sobre novedades y ofertas</label>
     </div>
 
     <div>
-        <input type="checkbox" id="proteccionSI"
-		value="proteccion" checked name="proteccion">
-        <label for="proteccionSI">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label>
+        <input type="checkbox" id="condiciones" name="condiciones" required>
+        <label for="condiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos</label>
     </div>
 
     <div>
