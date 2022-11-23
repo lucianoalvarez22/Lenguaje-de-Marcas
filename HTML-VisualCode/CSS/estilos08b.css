@@ -1,0 +1,38 @@
+summary {
+    cursor: pointer; /*Cambia el cursor*/
+    font-size: 1.15em;
+}
+
+
+details {
+    padding: 15px;
+    background-color: #f6f7f8;
+    margin-bottom: 20px;
+}
+ details[open] {
+    border-left:1px brown solid;
+} 
+
+
+
+details summary::-webkit-details-marker {
+    display: none;
+    
+}
+
+summary:before{
+    background: #da291c;
+    border-color: #da291c;
+    border-radius: 50px;
+    content: "+";
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0 10px 0 0;
+    padding:0 10px;
+    text-align: center;
+}
+
+details[open]>summary:before {
+    content: "-";
+}
