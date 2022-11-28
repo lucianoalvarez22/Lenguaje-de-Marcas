@@ -1,0 +1,33 @@
+main {
+    background: linear-gradient(rgb(100, 97, 97),rgb(255, 255, 255));
+}
+
+p::first-letter {
+    font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+.claves {
+    text-transform: uppercase;
+}
+
+
+span#formato1 {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+strong {
+    color: rgb(211, 113, 56);
+}
+
+
+/*p strong:first-child {
+color: rgb(236, 142, 75);
+}
+
+strong span:first-child  {
+    color: rgb(211, 113, 56);
+}*/
