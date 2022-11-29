@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes</title>
+    <style>
+        /* .estrecha {
+            width: 100px; height: 100px;
+        }
+        .ancha {
+            width: 200px; height: 200px;
+        } */
+    </style>
+</head>
+<body>
+    <DIV>
+        <span>Hola esto</span> es una prueba.
+    </DIV>
+    <img src="imagenes/logo.jpg">
+    <img class="estrecha" src="imagenes/logo.jpg" alt="Texto alternativo si no se ve la imagen">
+    <img class="ancha" src="imagenes/logo.jpg"  alt="Logotipo de la inmobiliaria" 
+     title="STAY HOMESS" 
+     longdesc="recursos/explicacionlogotipo.txt">
+     <img src="imagenes/asterisco.png" alt="">
+<HR>
+<picture>
+    <source media="(min-width: 900px)" srcset="imagenes/logosgrande.jpg">
+    <source media="(min-width: 550px)" srcset="imagenes/logosmediana.jpg">
+    <img src="imagenes/logo.jpg"> <!--alternativa por si no soporta picture el navegador-->
+</picture>
+
+
+<hr>
+<figure> <!-- etiqueta de bloque-->
+    <img src="imagenes/logo.jpg" alt="logo de la empresa">
+    <figcaption>El logotipo oficial de la empresa</figcaption>
+</figure>
+<figure> 
+    <img src="imagenes/logo.jpg" alt="logo de la empresa">
+    <figcaption>El logotipo oficial de la empresa</figcaption>
+</figure>
+
+
+<a href="01CaracteresEspeciales.html"><img src="imagenes/logo.jpg" alt="logo de la empresa"></a>
+<img src="imagenes/logo.jpg" alt="logo de la empresa">
+
+
+</body>
+</html>

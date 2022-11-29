@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formularios 2</title>
+</head>
+<BODY>
+	<h1>Más ejemplos de entradas para formularios</h1>
+<form action="html5formularios2.html" method="post">
+	
+		<label for="comentarios"><h2>Textarea</h2></LABEL>
+		<textarea id="comentarios" maxlength="100"
+		placeholder="Cuéntame tu vida..."></textarea>
+	<h2>Botones radio excluyentes</h2>
+		<input type="radio" id="hombre" name="genero" value="H">
+		<label for="hombre">Hombre</LABEL>
+		<input type="radio" id="mujer" name="genero" value="M">
+		<label for="mujer">Mujer</LABEL>
+		<input type="radio" id="noiden" name="genero" value="No identificado">
+		<label for="noiden">No identificado</LABEL>
+	<h2>Select</h2>
+		<label for="coches">Marcas</LABEL>
+		<select id="coches" name="coches"> <!---probar poniendo multiple-->
+			<option value="vo">Volvo</option>
+			<option value="sa" disabled>Saab</option>
+			<option value="fi">Fiat</option>
+			<option value="au">Audi</option>
+		</select>
+	<h2>Caja de opciones</h2>
+		<input type="checkbox" id="vehículo1"
+		value="Bicicleta" checked name="bicicleta">
+		<label for="vehículo1">Tengo bicicleta</LABEL>
+		<input type="checkbox" id="vehículo2" name="coche"
+		value="Coche">
+		<label for="vehículo2">Tengo coche</LABEL>
+
+	<HR>
+	<h2>BOTONES</h2>
+		<input type="submit" value="¡DALE!">
+		<input type="reset" value="¡BORRAR!">
+</form>
+</BODY>
+</html>

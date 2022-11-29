@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilos15.css">
+    <title>Formularios CSS 15</title>
+</head>
+<body>
+<HEADER><H1>FORMULARIO</H1></HEADER>
+<form  class="formulario_contacto" action="#" method="form">
+        <div>
+            <ul>
+                <li>
+                    <h2>Contactos</h2>
+                    <span class="datos_obligatorios">Datos requeridos</span>
+                </li>
+                <li>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Chiquito de la Calzada">
+                </li>
+				     <li>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Chiquito de la Calzada">
+                </li>
+                <li>
+                    <label for="correo">Email</label>
+                    <input type="email" name="correo" placeholder="info@empresa.com" required>
+                </li>
+                <li>
+                    <label for="sitioweb">Sitio web</label>
+                    <input type="url" name="sitioweb" placeholder="http://www.empresa.com" 
+				 required pattern="(http|https)://.+">
+                </li>
+                <li>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" cols="40" rows="6" required></textarea>
+                </li>
+                <li>
+                    <button class="envio" type="submit">Enviar mensaje</button>
+                </li>
+            </ul>
+        </div>
+    </form>	
+</body>
+</html>
+ 

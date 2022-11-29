@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+/*
+div { padding-bottom:3px;}
+
+#a { 
+	width:200px;
+	position:absolute;
+	top:40px;
+	left:520px;
+}
+#b { 
+	width:200px;
+	position:absolute;
+	top:200px;
+	left:120px;
+}
+*/
+	</style>
+	<title>Formularios 3</title>
+</head>
+<BODY>
+	<h1>Formularios 3</h1>
+	<h2>Primer ejemplo</h2>
+<form id="a" action="paginadestino.php" method="get" target="_blank">
+	<DIV>
+		<label for='usuario'>Usuario</label>
+		<input type="text" name="usuario" id="usuario">
+	</DIV>
+	<DIV>
+		<label for="pass" lang="en" title="Clave de acceso">Password</label>
+		<input type="password" name="pass" id="pass">
+	</DIV>
+
+	<DIV><!-- cuidado con las " y las ' que siempre deben ir anidadas-->
+		<input type="image" name="botondeenvio"
+	src="imagenes/botonmolon.jpg"   alt="Enviar formulario" onclick="alert('No por mucho madrugar amanace más temprano')">
+	</DIV>
+	<DIV>  <!--No envía nada. Suele usarse para ejecutar scripts Javascript--->
+		<BUTTON type="button" onclick="alert('Porque un día maté a un perro, mataperros me llamaron')">
+	Un botón para cosas diversas</BUTTON>
+	</DIV>  
+	<DIV><!-- similar a  BUTTON type="button" pero el texto va en value. No envía nada. Suele usarse para ejecutar scripts Javascript-->
+		<input type="button" value="Esto es un botón" onclick="document.write('Ya casi es jueves')">
+	</DIV>
+</form>
+<h2>Segundo ejemplo</h2>
+<form id="b" action="procesando.php"  name="form" method="post" enctype="multipart/form-data">
+	<DIV>
+		<LABEL for="archivo">Seleccionar archivo</LABEL>
+		<input type="file"  id="archivo" size="40" multiple> <!-- multiple para permitir varios archivos	-->
+	</DIV>
+	<DIV>
+		<input type="submit" value="Subir archivo">
+	</DIV>
+</form>
+
+</BODY>
+</HTML>
+
+
+
+
+
+
+
+
+

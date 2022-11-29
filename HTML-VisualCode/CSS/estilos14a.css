@@ -1,0 +1,20 @@
+﻿.contenedor{   
+	position: absolute;
+	left: 30px;
+	top:20px;
+	padding:10px;
+}
+.texto {
+	position: absolute;
+	left: 20px;
+	top: 30px;	
+	color: #1dacc8;
+	font-weight:blond;
+	text-align:center;
+	font-size:6em;
+	display:none; /* visibility: hidden;*/
+}
+
+.contenedor:hover .texto {
+	display:block;  /*visibility: visible;*/
+} 

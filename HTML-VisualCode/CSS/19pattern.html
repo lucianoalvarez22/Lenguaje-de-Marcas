@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        ul {
+            list-style: none;
+        }
+
+        li {
+            display: inline;
+        }
+
+        span {
+            font-style: oblique;
+        }
+    </style>
+    <title>Patrones para entradas de formularios</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ejemplos de <span lang="en" title="patrón">pattern</span></h1>
+    </header>
+    <main>
+       <form action="19destino.html">
+        <input type="text" pattern="[A-Z]+(4|8)" title="Una o mas letras mayúsculas seguidas del 4 ó del 8" placeholder="[A-Z]+(4|8)">
+        <input type="submit">
+       </form> 
+       <form action="19destino.html">
+        <input type="text" pattern="[A-Z]?[0-9]{6,9}" title="Una letra mayúsculas (opcional) seguida de un número entre 6 y 9 dígitos" placeholder="[A-Z]?[0-9]{6,9}">
+        <input type="submit">
+       </form>
+    </main>
+</body>
+
+</html>

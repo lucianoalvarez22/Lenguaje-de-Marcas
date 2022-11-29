@@ -1,0 +1,164 @@
+  body {
+     font: 24px Helvetica;
+     background-color: #999999;
+  }
+/***   encabezado y pie */
+  header,
+  footer {
+     /* no tienen display especial */
+     margin: 4px;
+     padding: 5px;
+     height: 100px;
+     border: 1px solid #eebb55;
+     border-radius: 7px;
+     background: #ffeebb;
+  }
+  /***   main con sus hijos */
+  main {
+     /* padre con tres hijos bloques: nav, article, aside*/
+     height: auto;
+     margin: 10px;
+     padding: 0px;
+     display: flex;
+     /* display flex */
+     flex-flow: row;
+     /* filas*/
+  }
+
+  main nav {
+
+     border: 1px solid #8888bb;
+     border-radius: 7pt;
+     background: #ccccff;
+     flex-basis:  20%;
+     /* el ancho de nav será del 20% como mínimo */
+     order: 1;
+     /* primera columna */
+
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+  }
+
+  nav img {
+   width:200px;
+   margin:20px 0;
+   border-radius:25%;
+  }
+
+
+  main article {
+     margin: 4px;
+     padding: 5px;
+     border: 1px solid #cccc33;
+     border-radius: 7px;
+     background: #dddd88;
+
+     flex-basis: 60%;
+     /* el ancho de article será del 60% como mínimo */
+     order: 2;
+     /* segunda columna */
+
+     /* tratamos ahora a article como padre de tres bloques */
+     display:flex;
+     flex-direction: column;
+  }
+
+  .columnas {
+   column-count: 2;
+   column-gap: 20px;
+   column-rule: #cccc33 7px solid;
+   text-align: justify;
+   text-indent: 15px;
+  }
+  .columnas::first-letter {
+   font-weight: bold;
+   font-size:1.5em;
+  }
+
+.imagenes {
+   display:flex;
+   justify-content: space-between;
+}
+
+.tablaTexto {
+   display:flex;
+}
+
+.listado, td, th, tr {
+   border:5px red solid;
+   border-collapse: collapse;
+}
+
+.listado {
+   margin-right:20px;
+}
+
+.listado tr:nth-child(odd) {
+   background: linear-gradient(red, yellow);
+}
+.listado tr:nth-child(even) {
+   background: linear-gradient(green, rgb(90, 90, 114));
+}
+
+.listado tr:first-child {
+   background: linear-gradient(pink, pink);
+
+}
+
+figcaption {
+   text-align:center;
+}
+
+  main aside {
+
+     margin: 4px;
+     padding: 5px;
+     border: 1px solid #8888bb;
+     border-radius: 7pt;
+     background: #ccccff;
+     flex-basis: 20%;
+     /* el ancho de aside será del 20% como mínimo*/
+     order: 3;
+     /* tercera columna */
+  }
+  aside img,
+  aside iframe {
+   width: 100%; /* si no se tren las imágenes o vídeos con tamaño ya definido mejor le dejamos use el que disonga aside */
+  }
+
+/******** tabla externa */
+table.comicGreen {
+   font-family: "Comic Sans MS", cursive, sans-serif;
+   border: 2px solid #4F7849;
+   background-color: #EEEEEE;
+   width: 100%;
+   text-align: center;
+   border-collapse: collapse;
+   margin:40px;
+ }
+ table.comicGreen td, table.comicGreen th {
+   border: 1px solid #4F7849;
+   padding: 3px 2px;
+ }
+ table.comicGreen tbody td {
+   font-size: 19px;
+   font-weight: bold;
+   color: #4F7849;
+ }
+ table.comicGreen tr:nth-child(even) {
+   background: #CEE0CC;
+ }
+ table.comicGreen tfoot {
+   font-size: 21px;
+   font-weight: bold;
+   color: #FFFFFF;
+   background: #4F7849;
+   background: -moz-linear-gradient(top, #7b9a76 0%, #60855b 66%, #4F7849 100%);
+   background: -webkit-linear-gradient(top, #7b9a76 0%, #60855b 66%, #4F7849 100%);
+   background: linear-gradient(to bottom, #7b9a76 0%, #60855b 66%, #4F7849 100%);
+   border-top: 1px solid #444444;
+ }
+ table.comicGreen tfoot td {
+   font-size: 21px;
+ }

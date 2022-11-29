@@ -1,0 +1,62 @@
+
+main, header {
+    display:flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+}
+
+table, th, tr, td {
+    border:1px black solid;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 5px;
+    empty-cells:hide;
+    width: 440px;
+}
+#caso1 {
+    background-color: pink;
+}
+table th{
+    letter-spacing: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+#caso1 th::first-letter {
+    color:red;
+}
+
+#caso2 tr td:first-child {
+    background-color: aqua;
+}
+#caso2 tr:nth-child(even) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+
+#caso3 tr:nth-child(even) {
+    background-color: coral;
+}
+#caso3 caption {
+    background-color:lightcoral;
+    font-weight: bolder;
+    font-size: 1.7em;
+}
+#caso3 caption::before, #caso3 caption::after {
+    content:"--"
+}
+
+#caso4 td:nth-child(3), #caso5 td:nth-child(3){
+    text-align:right;
+    padding-right: 1em;
+}
+
+
+:empty { 
+    border-color: white;
+}
+table th:hover {
+    background-color:burlywood;
+    letter-spacing: 1em;
+    transition:letter-spacing 2s;
+}

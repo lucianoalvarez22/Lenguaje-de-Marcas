@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+
+body { 
+	border:2px  red solid;
+}
+#uno {
+	color:red;
+
+	font: .5em bold "Spectral SC", serif;
+	font-family: 'Pangolin', cursive;
+	line-height: 1.9em;
+	font-family: 'Splash', cursive;
+	text-decoration: overline ;
+	text-transform:capitalize;
+	text-indent:10%;
+}
+#dos {
+	color: #aa0077;
+	/*font-family: monoton, cursive;
+	font-size: 2em;
+	font-weight:bolder;*/
+	font:  2em bolder monoton, Courier;
+
+	text-align:center;
+	text-decoration:overline ;
+	text-transform:uppercase;
+}
+#tres {
+	color: #ABC;
+	/* font-family: "Courier New", Courier, monospace;
+	font-size:50%;
+	font-style:italic;*/
+	font: italic 90%  "Courier New", Courier, monospace;
+	text-decoration: line-through;
+	text-transform:lowercase;
+}
+
+p #cuatro {
+	color:chocolate;
+	/*font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:200%;
+	font-style:oblique;*/
+	font: oblique 200% Georgia, "Times New Roman", Times, serif;
+	letter-spacing:1em;
+}
+#cinco {
+	color: #119955;
+/*	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-variant: small-caps;*/
+
+	font:small-caps 56px Verdana, Arial, Helvetica, sans-serif ;
+	font-family: 'Grey Qo';
+text-indent: 20px;
+	text-align:justify;
+	letter-spacing:3px;
+	word-spacing:2px;
+	padding:50px;
+}
+#seis {
+	color: #995a11;
+	font-family: 'Grechen Fuemen', cursive;
+}
+#cuatro span {
+	font-family: 'Rubik Beastly', cursive;
+	
+}

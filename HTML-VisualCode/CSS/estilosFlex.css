@@ -1,0 +1,124 @@
+.contenedor1 {
+    display:flex;
+    /*flex-direction: row;  por defecto trabaja por filas pero podemos cambiarlo a columnas. Podemos usar también row-reverse y column-reverse */
+    /*Si probamos a añadir nuevos DIV respetaría el espacio reservado en una fila / columna */
+    flex-wrap: wrap-reverse;  /*por defecto trabaja nowarap para respetar filas y columnas. Podemos usar wrap y  wrap-reverse */
+    /* Puede unirse en una shorthand, flex-flow: column wrap; */
+    background-color: burlywood;
+    padding:10px;
+    border: 2px solid black;
+ 
+}
+
+.contenedor1 div {
+    background-color: gold;
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size:2em;
+    border: 2px solid black;
+}
+
+
+.contenedor2 {
+    height: 200px;
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; /* para alinear bloques hijos en bloque padre 
+    Puede usarse también flex-start y flex-end
+    Otra visión nos da space-around y space-between
+    */
+    align-items: baseline; /*Por defecto es stretch que intenta ocupar todo el espacio verticalmente
+    También flex-start y flex-end*/
+    /* con baseline alinea a la base del contenido*/
+    background-color: burlywood;
+    padding:10px;
+    border: 2px solid black;
+}
+
+.contenedor2 div  {
+    background-color: gold;
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size:2em;
+    border: 2px solid black;
+}
+
+#uno {
+    width: 120px;
+    height: 120px;
+}
+#dos {
+    width: 420px;
+    font-size:5em;
+}
+#tres {
+    height: 150px;
+}
+
+.contenedor3 {
+    height: 500px;
+    display:flex;
+    flex-wrap: wrap; 
+    align-content: space-around;
+    /* puede incluirse también space-around / stretch / center / flex-start / flex-end
+    */
+    background-color: burlywood;
+    padding:10px;
+    border: 2px solid black;
+}
+
+.contenedor3 div {
+    background-color: gold;
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size:2em;
+    border: 2px solid black;
+}
+
+.contenedor4 {
+    height: 300px;
+    display:flex;
+    flex-wrap: wrap; 
+
+    background-color: burlywood;
+    padding:10px;
+    border: 2px solid black;
+}
+
+.contenedor4 div {
+    background-color: gold;
+    width: 100px;
+    margin:10px;
+    text-align: center;
+    line-height: 75px;
+    font-size:2em;
+    border: 2px solid black;
+}
+
+#rojo {
+    order:2; /* indicamos el orden en que aparecerá el hijo */
+    flex-grow: 1; /* indicamos la parte proporcional que oucparé  el hijo */
+    background-color: red;
+}
+#azul {
+    order:4;
+    flex-grow: 1;
+    background-color: blue;
+}
+#verde {
+    order:1;
+    flex-grow: 1;
+    background-color: green;
+}
+#amarillo {
+    order:3;
+    flex-grow: 3;
+    background-color: yellow;
+}
+/* podemos establecer en un hijo determinado un ancho mínimo con flex-basis:120px; por  ejemplo */

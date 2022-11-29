@@ -26,8 +26,8 @@ strong {
 
 /*p strong:first-child {
 color: rgb(236, 142, 75);
-}
+} */
 
 strong span:first-child  {
-    color: rgb(211, 113, 56);
-}*/
+    text-decoration: underline overline;
+}

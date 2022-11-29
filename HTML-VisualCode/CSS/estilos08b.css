@@ -1,27 +1,28 @@
 summary {
-    cursor: pointer; /*Cambia el cursor*/
+    cursor: pointer;
     font-size: 1.15em;
 }
 
 
-details {
+details #principal {
     padding: 15px;
     background-color: #f6f7f8;
     margin-bottom: 20px;
 }
+
  details[open] {
     border-left:1px brown solid;
 } 
 
 
 
-details summary::-webkit-details-marker {
+details summary::-o-details-marker {
     display: none;
-    
+
 }
 
-summary:before{
-    background: #da291c;
+summary::before{
+    background-color: #da291c;
     border-color: #da291c;
     border-radius: 50px;
     content: "+";
@@ -33,6 +34,6 @@ summary:before{
     text-align: center;
 }
 
-details[open]>summary:before {
+details[open]>summary::before {
     content: "-";
 }

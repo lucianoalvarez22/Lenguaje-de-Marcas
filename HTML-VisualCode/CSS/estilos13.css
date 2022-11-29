@@ -1,0 +1,53 @@
+body { 
+    width:80%;
+    border:2px red solid;
+    margin:0 auto;
+}
+h1 {
+    text-align: center;
+}
+#sustitucionBack {
+    width: 150px;
+    height: 150px;
+    background-image: url("imagenes/malpica1.jpg");
+    background-size: cover;
+    margin:10px;
+}
+
+#sustitucionBack:hover {
+    background-image: url("imagenes/malpica2.jpg");
+}
+
+img {
+    width: 100px;
+    height: 100px; 
+}
+
+#foto2 {
+    display:none;
+}
+
+#ejemploSustitucion:hover #foto2  {
+    display: inline;
+}
+#ejemploSustitucion:hover #foto1  {
+    display: none;
+}
+
+#foto3 {
+    position:relative;
+    top:0;
+    left: 5px;
+    z-index:10;
+}
+
+#foto4 {
+    position:relative;
+    top:0;
+    left:-100px;
+    z-index:1;
+}
+
+picture:hover #foto3{
+    z-index:-10;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio9b</title>
+    </head>
+    <body>
+        <form method="post" action="destino.html">
+            <fieldset>
+                <legend>Por favor, complete estas opciones</legend> 
+                <div>
+                        <label for="fecha">Fecha</label>
+                        <input type="date" id="fecha" name="fecha">
+                </div>
+                <div>
+                    <label for="archivo">Elija un fichero</label>
+			        <input type="file" id="archivo" name="archivo" required>
+                </div>
+                <div>
+                    <input type="checkbox" id="jpg" value="jpg" name="jpg">
+                    <label for="jpg">JPG</label>
+                    <input type="checkbox" id="png" value="png" name="png">
+                    <label for="png">PNG</label>
+                </div>
+                <div>
+                    <label for="color">Elija un color</label>
+			        <input type="color" id="color" name="color">
+                </div>
+                <div>
+                    <label for="instituto">Instituto </label>
+                    <input type="text" id="instituto" name="instituto" maxlength="20">
+                </div>
+                <div>
+                    <label for="estudios">Estudios elegidos </label>
+                    <input type="text" id="estudios" name="estudios" maxlength="40">
+                </div>
+                <div>
+                    <textarea name="comentarios" rows="5" cols="40">Inserte aquí el texto.</textarea>
+                </div>
+                <div>
+                    <label for="hora">Elija una hora</label>
+			        <input type="time" id="tiempo" name="hora">
+                </div>
+            </fieldset>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restablecer">
+             </div>
+        </form>
+    </body>
+</html>

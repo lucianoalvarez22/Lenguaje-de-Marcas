@@ -1,0 +1,43 @@
+main {
+  width: 70%;
+}
+
+nav, section {
+	margin:2em;
+	text-align:justify; 
+	width:70%;
+}
+
+a.boton {
+  text-decoration: none;
+  background-color: #EEE;
+  color: #222;
+  border: 1px outset #CCC; /* comparar con inset */
+  padding: .1em .5em;
+  border-radius: 12px;
+}
+
+a.boton:hover {
+  color: red;
+  background-color: #CCB;
+  border-bottom-left-radius: 64px;
+  border-bottom: 2px black solid;
+  transition: background-color 3s;
+  transition: color .8s linear 1s;
+}
+
+
+
+a.boton:active {
+  border: 1px inset #000;
+}
+
+p.clear {
+    clear: both;
+}
+img {
+	width:50px;
+	height:50%;
+	margin-right:.5em;
+  float: left;
+}

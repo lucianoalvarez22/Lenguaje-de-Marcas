@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        label {
+            display: block;
+        }
+    </style>
+    <title>Ejercicio 13</title>
+</head>
+
+<body>
+    <form action="">
+        <DIV>
+            <label for="usuario">El nombre de usuario debería consistir solamente de letras minúsculas, nada de letras
+                mayúsculas, ni números u otro tipo de caracteres especiales están permitidos. Además, la longitud del
+                nombre de usuario no debería ser mayor de 15 caracteres</label>
+            <input type="text" id="usuario" placeholder="Nombre de usuario" pattern="[a-z]{1,15}">
+        </DIV>
+        <DIV>
+            <label for="numero">Un número binario de ocho dígitos</label>
+            <input type="text" id="numero" pattern="[01]{8}" placeholder="Número binario">
+        </DIV>
+        <DIV>
+            <label for="codigo">Un código con tres caracteres seguido de tres números</label>
+            <input type="text" id="codigo" pattern="[A-Za-z]{3}[0-9]{3}" placeholder="Código">
+        </DIV>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

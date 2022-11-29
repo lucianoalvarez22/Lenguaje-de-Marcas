@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<HTML><HEAD>
+<STYLE>
+</STYLE>
+<TITLE>Formularios 4</TITLE>
+</HEAD>
+<BODY>
+<form method="post" action="tratamiento.php">
+	<fieldset>
+		<LEGEND>Datos personales</LEGEND> 
+		<LABEL for="nombre">¿Cuál es su nombre?</LABEL>
+		<input type="text" name="nombre" id="nombre">
+		<LABEL for="apellido">¿Cuál es su apellido?</LABEL>
+		<input type="text" name="apellido" id="apellido">
+		<LABEL for="correo">¿Cuál es su correo electrónico?</LABEL>
+		<input type="email" name="correo" id="email">
+	</fieldset>
+	<fieldset>
+		<LEGEND>Datos laborales</LEGEND> 
+		<DIV>
+			<LABEL for="vidalaboral">Vida laboral</LABEL>
+			<input type="file" id="vidalaboral" required>
+		</DIV>
+		<DIV >
+			<p>Elija su turno</p>
+			<input type="radio" name="turno" id="mañana" value="mañana">
+			<LABEL for="mañana">Mañana</LABEL>
+			<input type="radio" name="turno" id="tarde" value="tarde">
+			<LABEL for="tarde">Tarde</LABEL>
+			<input type="radio" name="turno" id="indi"value="indi">
+			<LABEL for="indi">Indiferente</LABEL>
+		</DIV>
+	</fieldset>
+	<DIV>
+	<input type="submit">
+	<input type="reset">
+</DIV>
+</form>
+</BODY>
+</HTML>

@@ -1,0 +1,35 @@
+
+main, header {
+    display:flex;
+    /*align-items: center;*/
+    justify-content: space-around;
+}
+
+table, th, tr, td {
+    border:1px black solid;
+}
+
+#caso1 {
+    border-collapse: collapse;
+}
+
+#caso2 {
+    border-collapse:separate;
+    border-spacing: 20px;
+}
+#caso3 {
+    border-collapse:separate;
+}
+
+#caso3 caption {
+    caption-side:bottom; /* top */
+    text-align:right;
+}
+
+#caso4 {
+    empty-cells:hide;
+}
+#caso5 {
+    table-layout: fixed;
+    width: 340px; /* probar con 100px */
+}

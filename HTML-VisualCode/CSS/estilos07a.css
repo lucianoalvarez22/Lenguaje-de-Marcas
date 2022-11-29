@@ -1,6 +1,12 @@
-p::before {
-	content: "PALABRA";
+ .especial::before {
+	content: url("imagenes/asterisco.png");
 	color:crimson;
+} 
+.especial::after {
+	content: url("imagenes/asterisco.png");
+}
+.advertencia::before {
+	content:url("imagenes/exclama.jpg")
 }
 p {
 	width:500px;
@@ -11,6 +17,8 @@ p {
 p::first-line { 
     color: blue;
 }
+
+
 p::first-letter { 
 	font-family:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 200%;

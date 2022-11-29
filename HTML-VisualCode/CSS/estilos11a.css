@@ -1,0 +1,47 @@
+section {
+    border: 2px solid #CCC;
+    padding: 1em;
+    margin: 4em;
+    width: 400px;
+ }
+
+#figureRelativa {
+    position:relative;
+    left:700px;
+    bottom:20px;
+    
+}
+
+#figureAbsoluta {
+    position: absolute;
+    top:  0px; 
+    left: 350px;
+    z-index:-100;
+   
+}
+
+p+figure img { /* un img dentro de un figure que venga precedido de una p */
+  width: 200px;
+}
+
+#homeFijo {
+  position:fixed;
+  bottom:20px;
+  right:20px;
+}
+
+section:last-of-type {
+  width: 80%;
+}
+
+.fotoCentrada {
+  width: 50%;
+  text-align:center;
+  margin:0 auto;
+  border:orange 5px dotted;
+  opacity:0.5;
+}
+
+
+
+  

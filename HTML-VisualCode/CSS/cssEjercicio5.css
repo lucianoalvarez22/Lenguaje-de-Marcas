@@ -1,0 +1,61 @@
+/* Todos los elementos de la pagina */
+ {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #494949;
+}
+
+/* Todos los parrafos de la pagina */
+ {
+    color: #666;
+}
+
+/* Todos los elementos h1 de la pagina */
+ {
+    font-weight: bold;
+    font-size: 3em;
+}
+
+
+/* Todos los párrafos de clase "entrada"*/
+ {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+/* Todos los párrafos hijos de id "noticia-principal" */
+ {
+    color: green;
+    padding: 1em;
+}
+
+/* Todos los span hijos de un párrafo*/
+ {
+    background: yellowgreen;
+
+}
+
+/* Todos los span hijos de un párrafo que es hijo de id="noticia-principal"*/
+ {
+    background-color: red;
+
+}
+
+/* Todos los elementos con id "noticia-principal" o con id "noticia-secundaria" */
+
+ {
+    background: pink;
+    border: 1px solid black;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+
+/* Todos los enlaces que estén dentro de párrafos con clase "entrada   " */
+{
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}

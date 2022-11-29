@@ -1,0 +1,16 @@
+
+#comentarios ol {
+    width: 50%;
+}
+#comentarios li {
+    list-style:none; 
+}
+li p {
+    text-align: justify;
+    border-right:2px grey solid;
+    border-left:2px grey solid;
+    padding: 15px;
+    
+    border-radius: 20%;
+  
+}

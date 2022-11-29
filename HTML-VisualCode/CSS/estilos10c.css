@@ -1,0 +1,57 @@
+body {
+	background-image: url("imagenes/fondo.jpg");
+	background-size: 200px 20px;
+	background-repeat: repeat-y;
+	background-position: right;
+}
+.dobleFondo {
+    width: 100px;
+	background:url("imagenes/exclama.jpg") repeat-y top right, 
+	           url("imagenes/ok.jpg") repeat-x top left;
+	margin:2px;
+    padding:8px;
+	padding-left:20px;
+}
+div {
+	width:100px;
+	height:100px;
+	margin:10px;	
+}
+img {
+	width: 150px;
+	height: 100px;
+	border-radius:100%;
+
+}
+.cajaEnLinea {
+	border:2px solid rgb(46, 45, 45);
+	display:inline; 
+}
+
+.imgDivImg {
+	width: 50%;
+	border-bottom:2px solid red;
+	border-right:2px solid red;
+	padding-bottom: 10px;
+}
+
+.cajaPuntos {
+	border-left-color:red;
+	border-left-style: dashed;
+	border-left-width:2px;	
+	padding-left:5px;
+	border-right-color:red;
+	border-right-style: dotted;
+	border-right-width: 20px;
+}	
+.cajaArcoVerde {
+	background-color:green;
+    border-radius: 100px 12px 34px 6px;
+	padding:20px 0 0 50px;
+}
+.cajaExclama {
+	background-image: url("imagenes/exclama.jpg"), url("imagenes/exclama.jpg");
+    background-repeat: repeat-x, repeat-y;
+	border-radius: 25px;
+	padding-left:20px;
+}

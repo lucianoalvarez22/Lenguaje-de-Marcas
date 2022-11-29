@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio9a</title>
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <FORM action="destino.html" method="post">
+        <fieldset>
+            <legend>Por favor, complete estas opciones</legend>
+            <div>
+                <select id="sistema" name="sistema">
+                    <option     disabled value="" >Elige una opción</option>
+                    <option value="KDE">KDE</option>
+                    <option value="GNOME">GNOME</option>
+                    <option value="Unity">Unity</option>
+
+                </select>
+            </div>
+            <div>   
+                <textarea name="comentarios" rows="5" cols="40">Escriba aquí por favor.</textarea>
+            </div>
+            <div>
+                <label for="color">Elija un color</label>
+                <input type="color" id="color" name="color">
+            </div>
+            <div>
+                <label for="hora">Elija una hora</label>
+                <input type="time" id="hora" name="hora">
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+        </div>
+    </FORM>
+</body>
+
+</html>

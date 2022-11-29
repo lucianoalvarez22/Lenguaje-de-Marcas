@@ -1,11 +1,17 @@
+nav {
+	border: 2px red dotted;
+	width: 30%;
+}
 nav a {
-    display:block;
+	display:block;
 }
 
-img {
+
+ img {
 	width:100px;
 	height:100px;
-}
+} 
+
 .primero img:first-child {
 	border-left:6px solid tomato;
 }
@@ -21,42 +27,37 @@ img {
    border-right: 6px solid tomato;
 }
 
-ol li:nth-child(5)   {  
+ol li:nth-child(5), ol li:nth-child(7)   {  
    background-color: #CCC;
    width:100px;
 }
 
-ol li:nth-child(7)   {  
-	background-color: #CCC;
-	width:100px;
- }
 /* alternativa a escoger el primer elemento */
 .primero img:first-of-type {
 		border-left:6px solid chocolate;
 }
 
-
-ol li:nth-child(even) {
+ol li:nth-child(even), ul li:nth-child(even) {
 	color:red;
 }
 
 div {
 	width:20px;
 	height:20px;
-	margin:2px;
+	margin:4px;
+}
+div {
+	background-color: green;
 }
 .cajaroja {
 	background-color: red;
 }
-div:not(.cajaroja) {
+/* div:not(.cajaroja) {
 	background-color: green;
-}
+} */
 
 h2:target {
 	background-color: gold;
 }
 
-nav {
-	border: 2px red solid;
-	width:30%;
-}
+

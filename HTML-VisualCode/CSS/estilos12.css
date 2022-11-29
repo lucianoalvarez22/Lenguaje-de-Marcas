@@ -1,0 +1,53 @@
+body {
+    margin-bottom: 0px;
+}
+#absoluta {
+    width: 25%;
+    position:absolute;
+    top:0px;
+    right:0px;
+    margin-right: 10px;
+    list-style-image: url("imagenes/ok.jpg");
+}
+
+#absoluta h2 {
+    text-align:center;
+    border:2px red solid;
+}
+#absoluta>ul {    
+    width: 50%;
+    margin:0 auto;
+    border:2px red solid;
+}
+
+ul.asterisco {
+    list-style-image: url("imagenes/asterisco.png");
+}
+ul.vistobueno {
+    list-style-image: url("imagenes/vistobueno.png");
+
+}
+ul.iconoexterno {
+    list-style-image: url("https://mdn.mozillademos.org/files/11979/starsolid.gif");
+    list-style-position: inside ;
+}
+
+.fondo {
+    background-color: pink;
+    background-image: url("imagenes/02ribete.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    width:40%;
+    min-height: 120px;
+}
+
+#pieFijo {
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    padding:0px;
+    background-color: black;
+}
+#pieFijo a {
+    color:wheat;
+}
