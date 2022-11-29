@@ -40,6 +40,14 @@ section:last-of-type {
   margin:0 auto;
   border:orange 5px dotted;
   opacity:0.5;
+  
+}
+
+.fotoCentrada:hover {
+  opacity: 0.9;
+  transition: opacity 1s;
+  width: 80%;
+  transition: width 2s;
 }
 
 
