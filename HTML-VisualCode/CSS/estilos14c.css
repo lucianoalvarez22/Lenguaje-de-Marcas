@@ -17,10 +17,6 @@
 
 .contenedor img:hover {
   opacity: 0;
-  -webkit-transition: opacity 5000ms;
-  -moz-transition: opacity 5000ms;
-  -o-transition: opacity 5000ms;
-  -ms-transition: opacity 5000ms;
   transition: opacity 5000ms;
 }
 
