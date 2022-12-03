@@ -1,0 +1,52 @@
+*,*::before,*::after {
+    box-sizing: border-box
+}
+
+/* No se verdaderamente a lo que puede afectar esto. */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Este selector afectaria a todo el documento HTML, le pondrá un margin y un padding de 0 en todo el documento*/
+
+html {
+    font-size: 60%;
+}
+
+/* Esta selector afectaría a la etiqueta HTML, en el que el tamaño de la fuente será del 60% */
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-size: 1.6em;
+}
+
+/* En esta ocasión, afectaría a la etiqueta body. Le estamos dando un alto minimo, un tamaño de fuente con respecto a la etiqueta actual y un espacio entre lineas en el texto*/
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Esto afecta a las etiquetas img, picture, video, canvas, svg. Lo pone todo en bloque y un ancho maximo de 100%*/
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Afectará a la etiqueta input, button, textarea, select. Le aplicará la propiedad font que herede del padre*/
+
+ol, ul {
+    list-style: none;
+}
+/* Afectará a las listas ol y ul. Le aplica el NO mostrar ningun marcador en la lista*/
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* En una tabla, le aplicará una fusion de bordes. Y una separacion entre celdas de la tabla de 0  */
+
+

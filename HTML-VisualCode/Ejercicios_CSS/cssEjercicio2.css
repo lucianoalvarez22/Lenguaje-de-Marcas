@@ -1,10 +1,13 @@
 html {
     scroll-behavior: smooth;
-}
+    }
+
+    /* Segun he podido comprobar, "scroll-behavoir" hace que el desplazamiento hacia cualquier articulo sea menos brusco*/
 
 
 body {
     background-color: #cd5c5c;
+    margin-top: -21px;
 }
 
 header {
@@ -30,5 +33,17 @@ a {
 }
 
 a:hover {
+    color: white;
+}
+
+#caso1:hover{
+    color: white;
+}
+
+#caso2:hover{
+    color: white;
+}
+
+#caso3:hover{
     color: white;
 }
