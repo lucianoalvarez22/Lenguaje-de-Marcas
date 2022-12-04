@@ -1,0 +1,44 @@
+main{
+    display:flex;
+    justify-content: space-around;
+}
+
+section{
+    border:1px red solid;
+    margin-right: 40px;
+    width: 50%;
+
+}
+
+section p{
+    color: blue;
+    padding: 5px;
+}
+
+section p a{
+    color: red;
+}
+
+section p em{
+    background-color: yellow;
+}
+
+section.normal{
+    border:1px green solid;
+    margin-right: 0px;
+    color: black;
+}
+
+section.normal p a{
+    color: red;
+}
+
+section.normal p{
+    color: black;
+    padding: 5px;
+}
+
+section.normal p em{
+    background-color: pink;
+}
+
