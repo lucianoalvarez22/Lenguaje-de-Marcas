@@ -5,8 +5,10 @@ main{
 
 section{
     border:1px red solid;
-    margin-right: 40px;
-    width: 50%;
+    padding: 0 4px;
+    text-indent: 1.2em;
+    text-align: justify;
+    margin-right: 60px;
 
 }
 
