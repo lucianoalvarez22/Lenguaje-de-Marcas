@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(127, 230, 127);
+}
+
+#king {
+    width: 15%;
+    float: right;
+}
+
+#bandera {
+    width: 80px;
+    float: left;
+    margin-right: 7px;
+}
+
+hr {
+    margin-left: 5px;
+    border: green solid;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span{
+    text-decoration: underline;
+}

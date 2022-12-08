@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(212, 212, 40);
+}
+
+table, th, td {
+    border:2px green solid;
+    border-collapse: collapse; 
+} 
+
+caption{
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+th,td {
+    width: 60px;
+    height: 50px;
+    text-align: right;
+    white-space: pre;
+    padding-right: 9px;
+    color: rgb(155, 22, 22);
+    font-weight: bold;
+}
+
+#colores tr td:first-child {
+    background-color: gray;
+}
+
+h1 {
+    color: rgb(155, 22, 22);
+
+}
+
+.espacio {
+    padding-left: 5em;
+}

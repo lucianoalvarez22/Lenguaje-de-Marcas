@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(214, 60, 168);
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+
+img:hover{
+    border: 2px red;
+}

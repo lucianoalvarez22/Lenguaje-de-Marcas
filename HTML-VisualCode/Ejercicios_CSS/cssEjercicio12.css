@@ -1,0 +1,22 @@
+main{
+    display: flex;
+}
+
+div{
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #242222 2px;
+    padding: 5px;
+    margin-right: 30px;
+}
+
+div h4{
+    text-align: center;
+    background-color: rgb(184, 178, 178);
+}
+
+div img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+}
