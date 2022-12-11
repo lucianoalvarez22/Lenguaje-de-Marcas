@@ -1,0 +1,27 @@
+main {
+    text-align:justify;
+    text-indent: 1.5%;
+    background: linear-gradient(to bottom, grey, white); 
+    padding:0 10px 0 10px;
+}
+main p::first-letter {
+    font-size: 200%;
+    font-weight: bold;
+}
+#formato1{
+    font-size:30pt;
+    font-weight:bold;
+}
+strong {
+    color:goldenrod;
+}
+strong span {
+    /*text-decoration: underline  overline;*/
+    border-bottom: 1px goldenrod solid;
+    border-top: 1px goldenrod solid; 
+}
+
+.claves {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}

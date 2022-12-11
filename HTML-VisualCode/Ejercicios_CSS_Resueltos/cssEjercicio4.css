@@ -1,0 +1,36 @@
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 60%;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-size: 1.6em;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

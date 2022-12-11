@@ -1,0 +1,25 @@
+header h1{
+    text-align: center ;
+}
+ main {
+    width: 98%;
+    margin:0 auto;
+}
+
+section {
+    float:left;
+    width: 17%;
+    border: solid #242222 2px;
+    margin: 0 12px;
+}
+section h2{
+    text-align: center;
+    background-color: rgb(216, 165, 165);
+}
+
+section p {
+    text-align: justify;
+    text-indent: 1em;
+    padding-left:5px;
+    padding-right: 5px;
+}

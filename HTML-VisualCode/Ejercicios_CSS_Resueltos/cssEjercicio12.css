@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: center  ;
+}
+ main {
+    display: flex;
+    justify-content: space-around  ;
+}
+
+section {
+    width: 17%;
+    border: solid #242222 2px;
+}
+
+section h2{
+    text-align: center;
+    background-color: rgb(216, 165, 165);
+}
+
+section p {
+    text-align: justify;
+    text-indent: 1em;
+    padding-left:5px;
+    padding-right: 5px;
+}
+

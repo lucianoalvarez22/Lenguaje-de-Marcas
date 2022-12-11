@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hotpink;
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width:200px;
+    margin-right:20px;
+    float: left;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+}
+
+main:hover img{
+    margin-left:20px;
+    float:right;
+    border: 5px red solid;
+    transition: border 2s;
+}

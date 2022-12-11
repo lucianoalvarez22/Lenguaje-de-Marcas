@@ -1,0 +1,17 @@
+figure {
+    width:25%; /* el 25% del ancho de la pantalla que es el padre */
+}
+img {
+    width: 100%; /* el 100% del ancho de su padre figure */
+}
+figcaption {
+    position: relative;
+    top: -30px;
+    color:white;
+    text-align: center;
+    display:none;
+}
+
+figure:hover figcaption {
+    display:block;
+}

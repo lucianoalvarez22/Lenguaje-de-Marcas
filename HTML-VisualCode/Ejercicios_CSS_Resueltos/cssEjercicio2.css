@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* { margin:0;}
+
+body {
+    background-color: indianred;
+}
+header {
+    width: 80%;
+    margin:0 auto;
+    background-color: palevioletred;
+}
+header h1{
+    text-align: center;
+}
+nav {
+    width: 80%;
+    margin:0 auto;
+    background-color: palevioletred;
+    text-align:center;
+}
+
+nav a {
+    text-decoration:none;
+    letter-spacing: .1em;
+    margin:1em;
+    color:black;
+
+}
+nav a:hover {
+    font-variant: small-caps; /* letra versalita */ 
+    font-weight: bolder;
+    color:white;
+}
+
+main {
+    width: 80%;
+    height: auto;
+    background-color: palevioletred;
+    margin:0 auto;
+}
+
+main section {
+    padding:0 0 1% 1%;
+}
+
+section:target h2{
+    font-variant: small-caps; /* letra versalita */ 
+    font-weight: bolder;
+    color:white;
+}

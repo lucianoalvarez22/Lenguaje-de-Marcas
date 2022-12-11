@@ -1,0 +1,70 @@
+/* Todos los elementos de la pagina */
+* {
+    font-family: system-ui;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #494949;
+}
+
+/* Todos los parrafos de la pagina */
+p {
+    color: #666;
+    text-indent: 1%;
+    padding: 0 1%;
+}
+
+/* Todos los elementos h1 de la pagina */
+h1 {
+    font-weight: bold;
+    font-size: 22px;
+    color: #DD1E64;
+}
+
+/*todos los elementos con clase producto*/
+.producto {
+    background-color: pink;
+
+}
+
+/*todos los elementos con clase descripcion*/
+.descripcion {
+
+    font-size: 2em;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*los elementos  <span> de clase especial que esten dentro de un <h1>*/
+
+h1 span.especial {
+    text-decoration: underline;
+    text-decoration-color: pink;
+    font-size: 20px;
+    color: yellowgreen;
+    background-color: black;
+}
+
+/* el identifcador destacado */
+#destacado {
+    text-align: center;
+}
+
+/*las imagenes que esten en un elemento con id destacado*/
+#destacado img {
+    width: 50%;
+}
+
+
+/*el elemento con id anuncio*/
+#anuncio {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #DD1E64;
+}
+
+/*los parrafos que esten dentro de un elemento con id anuncio*/
+#anuncio p {
+
+    color: white;
+
+}

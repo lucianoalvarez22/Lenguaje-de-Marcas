@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(26, 170, 115);
+    text-align: justify;
+}
+p {
+    margin:10px;
+    line-height: 1.5em;
+    text-indent: 1em;
+}
+#king {
+    width: 11%;
+    float: right;
+    margin-left: 7px;
+}
+
+#bandera {
+    width: 10%;
+    float: left;
+    margin-right: 7px;
+}
+
+hr {
+    border: green solid;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span{
+    text-decoration: underline;
+}
