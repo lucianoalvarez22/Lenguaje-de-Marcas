@@ -38,7 +38,7 @@ p.entrada{
 }
 
 /* Todos los span hijos de un párrafo que es hijo de id="noticia-principal"*/
-#noticia-principal>p span{
+#noticia-principal p span{
     background-color: red;
 
 }

@@ -60,12 +60,16 @@ thead {
     padding: 1em;
     margin: 1em 0 1em 4em;
     width: 300px;
-    position: relative;
+    position: absolute;
+    top: 0px;
+    right:200px;
 }
 
-img figure {
+figure img {
     position: absolute;
     top: 50px; 
     left: 50px;
   }
+
+
    

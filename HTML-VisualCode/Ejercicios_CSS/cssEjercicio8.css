@@ -3,7 +3,7 @@ body {
 }
 
 #king {
-    width: 15%;
+    width: 11%;
     float: right;
 }
 
@@ -24,4 +24,8 @@ footer{
 
 span{
     text-decoration: underline;
+}
+
+#limpiar {
+    clear: both;
 }
