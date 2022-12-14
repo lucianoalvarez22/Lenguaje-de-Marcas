@@ -1,12 +1,12 @@
  .especial::before {
-	content: url("imagenes/asterisco.png");
+	content: url("../imagenes/asterisco.png");
 	color:crimson;
 } 
 .especial::after {
-	content: url("imagenes/asterisco.png");
+	content: url("../imagenes/asterisco.png");
 }
 .advertencia::before {
-	content:url("imagenes/exclama.jpg")
+	content:url("../imagenes/exclama.jpg")
 }
 p {
 	width:500px;

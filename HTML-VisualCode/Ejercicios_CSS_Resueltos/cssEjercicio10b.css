@@ -1,0 +1,30 @@
+body {
+  background-color: #EEE8AC;
+}
+h1{
+  color: #A26933;
+  
+}
+table{
+  margin-left: 20px;
+  border-collapse: collapse;
+  color: #A26933;
+}
+
+table caption {
+  color: #A26933;
+  background-color: gold;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+td {
+  border: 1px solid rgb(53, 163, 161);
+  text-align: right;
+  padding: 10px;
+}
+
+td:first-child{
+  background-color: #C0C0C0;
+}

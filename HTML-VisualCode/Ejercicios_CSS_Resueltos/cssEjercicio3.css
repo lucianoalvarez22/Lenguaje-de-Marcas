@@ -1,0 +1,134 @@
+section {
+    /* Centramos las secciones de la página */
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* TABLA */
+
+table {
+    /* Centramos la tabla en SECTION */
+    margin: 0 auto;
+}
+table, th, td {
+    /* Borde para todas las lineas de la tabla */
+    border: chocolate 2px solid;
+    border-collapse: collapse;
+}
+th {
+    /* color de fondo y de letra para los encabezados */
+    background-color: #597272;
+    color: whitesmoke;
+}
+td {
+    /* relleno y centrado del contenido de las casillas da datos */
+    padding: 2px 6px;
+    vertical-align: center;
+    text-align: center;
+}
+tr:nth-child(odd) {
+    /* color de fondo para las filas de datos impares */
+    background-color: #eaeded;
+}
+
+tr:hover {
+    /* color de fondo y de letra al pasar el ratón por encima */
+    background-color: #2f4f4f;
+    color: whitesmoke;
+}
+caption {
+    /* color de fondo para el nombre de la tabla */
+    background-color: #d5dcdc;
+}
+/* FIN TABLA*/
+
+/* columnas */
+div.columnas {
+    text-align: justify;
+    padding: 0 8%;
+    column-count: 2;
+    column-gap: 4%;
+}
+/* FIN  columnas */
+
+
+/* INICIO - css para el apartado de imágenes */
+
+.grande {
+    width: 400px;
+}
+.mediana {
+    width: 250px;
+}
+.pequeña {
+    width: 100px;
+    height: 80px;
+}
+/* FIN  imágenes */
+
+
+/* Apartado de los 2 rectángulos */
+ #rect1, #rect2 {
+    /* Formato para los dos rectángulos. Y que se muestren en línea sin perder propiedades de caja como altura */
+    margin: 2% 8%;
+    width: 300px;
+    height: 240px;
+    border: chocolate 2px solid;
+    display: inline-block;
+}
+
+#rect1{
+    /* caja de la izquierda con las dos imágenes centradas. */
+    background: url("../imagenes/asterisco.png"), url("../imagenes/herram2.jpg");
+    background-repeat: no-repeat; /* para los dos */
+    background-position: bottom, center;  
+}
+#rect2 {
+    /* caja de la derecha con 2 imágenes de fondo. */
+    background: url("../imagenes/ok.jpg"), url("../imagenes/cadiz.jpg");
+    background-position-x: 33px, 0;
+    background-position-y: 33px, 0;
+    background-repeat: no-repeat; /* para los dos */
+    background-size: 15%, cover; 
+}
+
+/* FIN  apartado de rectángulos */
+
+/* Efectos sobre imágenes */
+.mediana{ /*Incluye border-radius:150px; en alguna imagen del punto 1*/
+    border-radius: 25%;
+}
+
+.grande {
+    opacity: .4;
+}
+.pequeña { /* sombra en la imagen (caja) */
+    box-shadow: 10px 5px 5px rgb(221, 30, 30);
+}
+
+/* intercambio de imágenes */
+#segunda {
+    display:none;
+}
+
+a:hover #segunda {
+    display:inline;
+}
+a:hover #primera {
+    display:none;
+}
+/* FIN  efectos sobre imágenes */
+
+/* object-fit: cover; */
+#caja_abs {
+    /* Posicionamos la caja de forma absoluta al pie de la página */
+    border: chocolate 2px solid;
+    position: absolute;
+    top:1400px;
+    left: 200px;
+    width: 720px;
+    text-align: justify;
+    padding: 10px;
+}
+
+/* FIN object-fit: cover; */

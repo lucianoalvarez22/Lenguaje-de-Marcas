@@ -1,0 +1,49 @@
+body {
+    background-color: blueviolet;
+}
+
+header h1 {
+    text-align: center;
+}
+
+form {
+    margin:0 auto;
+    background-color: white;
+    border: 4px violet solid;
+    width: 23%;
+    padding:10px;
+}
+form p {
+    font-size: .8em;
+    padding-left:12px;
+}
+label {
+    display:block;
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left:12px;
+}
+input, textarea {
+    border: 2px solid blueviolet;
+    border-radius: 5px;
+    width: 90%;
+}
+
+div{
+    text-align: center;
+}
+#boton {
+    background-color: blueviolet;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-width: 9px;
+}
+
+form span {
+    font-size:.5em;
+    color:red;
+    font-weight: bolder;
+    position:relative;
+    top:-5px;
+}
