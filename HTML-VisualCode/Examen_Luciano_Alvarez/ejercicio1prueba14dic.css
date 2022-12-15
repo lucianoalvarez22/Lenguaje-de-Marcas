@@ -1,0 +1,29 @@
+ul li:first-child {
+    color: blue;
+    font-size: 16px;
+}
+/* Aqui aplico cambios al primer hijo li de la etiqueta ul
+Le aplico color azul y un tamaño de fuente de 16 px*/
+
+ul li:last-child {
+    color: red;
+    font-size: 22px;
+    
+
+}
+/* Aqui aplico cambios al ultimo hijo li de la etiqueta ul
+Color verde y un tamaño de letra mas grande que el de todos los demas*/
+
+li:nth-child(2) {
+    list-style-image: url('../imagenes/vistobueno.png');
+    margin-left: 22px;
+}
+/* Aqui aplico cambios al segundo 'hermano' li
+le adjunto la imagen del vistobueno y le doy un margin a la izquierda */
+
+li:nth-child(4) {
+    list-style-image: url('../imagenes/vistobueno.png');
+}
+
+/* Aqui aplico cambios al cuarto 'hermano' li
+le adjunto la imagen del vistobueno*/

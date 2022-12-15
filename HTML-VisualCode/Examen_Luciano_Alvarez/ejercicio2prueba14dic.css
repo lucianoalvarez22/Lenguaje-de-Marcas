@@ -1,0 +1,32 @@
+
+.ejercicio2 {
+    background-color: rgb(115, 227, 231);
+    width: 500px;
+    height: 250px;
+    background-image: url('../imagenes/02ribete.png'), url('../imagenes/lazo.png');
+    background-repeat: no-repeat;
+    
+}
+
+/* A la clase ejercicio2 le he puesto el color de fondo, un ancho, un alto, le he adjuntado las dos imagenes y le he dicho que no se repitan las imagenes
+La segunda imagen, la del lazo, no he podido posicionarla abajo a la derecha. Se tendría que hacer con un background-position: bottom rigth pero no lo consigo. */
+
+p {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 5px;
+    text-transform: capitalize;
+    
+}
+
+/* A la etiqueta P le he puesto en negrita, he alineado el texto a la derecha, un margen a la derecha de 5px y le he transformado el texto para que cada palabra lo ponga en mayuscula*/
+
+footer {
+    font-style: italic;
+}
+
+/*  A este footer le he cambiado el estilo de la fuente. */
+
+/*background-image: url('../imagenes/lazo.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;*/

@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(131, 205, 207)
+}
+
+/* Color de fondo a todo el body */
+
+legend {
+    color: gray;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+/* Color gris a los encabezados del formulario, con un espacio entre letras y en bold */
+
+#apellido_bloque {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#genero_bloque {
+    position: relative;
+}
+
+
+#correo_envio {
+    display: flex;
+}
+
+/* He creado un id al segundo fieldset para ponerlo los dos div alineados con display */
+
+.obligatorio::after {
+    content: "*";
+    color: red;
+}
+
+/* He creado una clase obligatorio a la que le he puesto un contenido "*" y le he dado un color rojo */
+
+.boton {
+    background-color: gray;
+    color: rgb(104, 24, 136);
+    margin-left: 5px;
+}
+
+/* Una clase al input boton para ponerlo todas las propiedades, color de fondo, color de boton y un margen a la izquierda*/ 
+
+fieldset {
+    margin: 5px;
+}
+
+/* Un margen entre cada fieldset*/
+
+#arroba {
+    font-weight: bold;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+/* un id arroba para ponerlo en negrita y unos margenes*/

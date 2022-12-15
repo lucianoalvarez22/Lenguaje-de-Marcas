@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio3prueba14dic.css">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <header>
+        <h1>Ejercicio 3</h1>
+    </header>
+    <nav id="menu">
+        <a href="#info-local">Información <span class="importanteNegrita">Local</span></a>
+        <a href="#info-nacional">Información <span class="importanteNegrita">Nacional</span></a>
+        <a href="#info-internacional">Información <span class="importanteNegrita">Internacional</span></a>
+        <a href="https://www.resumenprensa.com/aldia.html">Resumen prensa</a>
+    </nav>
+
+    <!--Debajo del header había puesto un menú de navegación en una etiqueta DIV. Semánticamente sería correcto ponerle la etiqueta nav y dentro las etiquetas a, como bien puestas están-->
+
+    <main>
+        <section id="info-local">
+            <h2>Las noticias locales</h2> <!--Hay puesto un H3 y, en este caso, quedaría mejor un H2 y luego en Css se le da las propiedades que se le considere oportuno-->
+            <article>
+                <time datetime="10-06-2022">10 de Junio de 2022</time>
+                <img src="foto.png" alt="Fotografía decorativa">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsa consequatur repellat maiores, cumque, facere exercitationem rerum eum delectus quia quos vel iste magnam dolor nam voluptatibus quod reiciendis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsa consequatur repellat maiores, cumque, facere exercitationem rerum eum delectus quia quos vel iste magnam dolor nam voluptatibus quod reiciendis.</p>
+            </article>
+            <article>
+                <time datetime="02-10-2022">2 de Octubre de 2022</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsa consequatur repellat maiores, cumque, facere exercitationem rerum eum delectus quia quos vel iste magnam dolor nam voluptatibus quod reiciendis.</p>
+            </article>
+        </section>
+        <section id="info-nacional">
+            <h2>Las noticias nacionales</h2> <!--Hay puesto un H3 y, en este caso, quedaría mejor un H2 y luego en Css se le da las propiedades que se le considere oportuno-->
+            <article>
+                <time datetime="08-05-2022">8 de Mayo de 2022</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsa consequatur repellat maiores, cumque, facere exercitationem rerum eum delectus quia quos vel iste magnam dolor nam voluptatibus quod reiciendis.</p>
+            </article>
+            <article>
+                <time datetime="14-11-2022">14 de Noviembre de 2022</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint unde ipsa consequatur repellat maiores, cumque, facere exercitationem rerum eum delectus quia quos vel iste magnam dolor nam voluptatibus quod reiciendis.</p>
+                <p>Soluta, numquam quibusdam perferendis eos repudiandae, neque, perspiciatis atque reprehenderit illo aliquam illum nulla? Distinctio magnam, corrupti beatae sunt asperiores molestiae quidem. Quaerat cupiditate ab molestiae quam quod minus amet!</p>
+            </article>
+        </section>
+        <section id="info-internacional">
+            <h2>Las noticias internacionales</h2> <!--Hay puesto un H3 y, en este caso, quedaría mejor un H2 y luego en Css se le da las propiedades que se le considere oportuno-->
+            <article>
+                <time datetime="14-11-2022">6 de Noviembre de 2022</time>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime adipisci aut eveniet dolorum quaerat consectetur molestiae, saepe asperiores. Similique, esse obcaecati assumenda laboriosam cum at quas hic aliquid deleniti! Impedit?.</p>
+                <hr>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores doloribus ipsam sapiente beatae, aliquam adipisci praesentium quis esse perspiciatis nisi nihil cupiditate aliquid laboriosam voluptatem eaque repudiandae optio officia doloremque!
+                </p>
+                <!--En esta últma parte la etiqueta hr la he puesto entre dos etiquetas "p" ya que queda más correcto en cuanto a formato.-->
+            </article>
+        </section>
+    </main>
+    <footer> <!--EL widht y el heigth es mejor ponerlo en el css antes que en la etiqueta footer del html-->
+        <address>Prueba Unidad Formativa 2</address>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ejercicio4prueba14dic.css">
+    <title>Ejercicio4</title>
+</head>
+<body>
+    <form method="post" action="">
+        <!--He puesto el form en post ya que es mejor opcion-->
+        <fieldset> <!--Fieldset para que aparezca remarcado. Lo he hecho en dos Fieldset, uno para cada cosa correspondiente-->
+            <legend>Informacion personal</legend> 
+            <div>
+                <label class="obligatorio" for="nombre">Nombre</LABEL>
+                <input type="text" id="nombre" name="nombre" placeholder= "Longitud máxima 25 caracteres" maxlength="25" required>
+                <!--El nombre con placeholder para que aparezca en la caja, maximo 25 caracteres con el maxlength-->
+            </div>
+
+            <div id="apellido_bloque">
+                <label class="obligatorio" for="apellidos">Apellidos</LABEL>
+                <input type="text" id="apellidos" name="apellidos" placeholder= "Longitud máxima 50 caracteres" maxlength="50" required>
+            </div>
+            <!--El apellido con placeholder para que aparezca en la caja, maximo 50 caracteres con el maxlength-->
+
+            <div id="genero_bloque">
+                <label for="genero">Genero</LABEL>
+                <select id="genero">
+                    <option value="h">Hombre</option>
+                    <option value="f">Mujer</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="fecha" class="obligatorio">Fecha de nacimiento</label>
+                <input type="date" id="fecha" name="fecha">
+            </div>
+
+
+            <div> Vivo en
+                <input  type="radio" id="sevilla" name="sevilla" value="sev">
+                <label for="hombre">Sevilla</LABEL>
+                <input type="radio" id="cadiz" name="cadiz" value="cad">
+                <label for="cadiz">Cadiz</LABEL>
+                <input type="radio" id="badajoz" name="badajoz" value="bad">
+                <label for="badajoz">Badajoz</LABEL>
+            </div>
+        </fieldset>
+
+        <fieldset id="correo_envio">
+            <legend>Correo electronico y envio</legend> 
+
+            <div>
+                <label for="nombre"></LABEL>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre de usuario" required>
+            </div>
+
+            <div id="arroba">@</div>
+
+            <div>
+                <label for="dominio"></LABEL>
+                <input type="text" id="dominio" name="dominio" placeholder="Dominio" required>
+            </div>
+
+            <div>
+                <label for="email_dominio"></LABEL>
+                <select id="email_dominio">
+                    <option value="ad">.ad</option>
+                    <option value="com">.com</option>
+                    <option value="es">.es</option>
+            </div>
+
+            <div>
+                <input class="boton" type="submit" value="Enviar">
+            </div>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
