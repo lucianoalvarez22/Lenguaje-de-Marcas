@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+#contenedor {
+    width: 800px;
+    height: 620px;
+    border: 3px green solid;
+    display: flex;
+    flex-direction: column; /* flex direction - define el eje principal (vertical o horizontal)*/
+    justify-content: space-around; /* justify content - eje principal*/
+    align-items: center; /* align items - eje secundario*/
+}
+
+#contenedor div {
+    border: 3px red solid;
+}
+
+#contenedor>:nth-child(1) {
+    width: 50%;
+    height: 30%;
+    order: 1;
+    text-align: center;
+}
+
+#contenedor :nth-child(2) {
+    width: 30%;
+    height: 30%;
+    background-color: red;
+}
+
+#contenedor :nth-child(3) {
+    width: 10%;
+    height: 20%;
+    background-color: orange;
+    order: -1;
+}
+
+#contenedor img {
+    width: 40px;
+}
