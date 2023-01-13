@@ -1,0 +1,87 @@
+  body {
+          font: 24px Helvetica;
+          background-color: #999999;
+  }
+
+  img {
+          width: 100%;
+  }
+
+  /* CABECERA y PIE */
+  header,
+  footer {
+          display: block;
+          margin: 4px;
+          padding: 5px;
+          min-height: 100px;
+          /* manejamos altura mínima */
+          border: 1px solid #eebb55;
+          border-radius: 7pt;
+          background: #ffeebb;
+  }
+
+
+
+  main {
+          /* padre*/
+          min-height: 800px;
+          margin: 0px;
+          padding: 0px;
+          display: flex;
+  }
+
+  nav {
+          padding: 5px;
+          border: 1px solid #8888bb;
+          border-radius: 7px;
+          background: #ccccff;
+          flex-basis: 20%;
+          /* el ancho de nav será del 20% */
+          order: 1;
+          /* primera columna */
+  }
+
+  section {
+          margin: 4px;
+          padding: 5px;
+          border: 1px solid #cccc33;
+          border-radius: 7px;
+          background: #dddd88;
+          flex-basis: 60%;
+          /* el ancho de article será del 60% */
+          order: 2;
+          /* segunda columna */
+  }
+
+  aside {
+          margin: 4px;
+          padding: 5px;
+          border: 1px solid #8888bb;
+          border-radius: 7pt;
+          background: #ccccff;
+          flex-basis: 20%;
+          /* el ancho de aside será del 20% */
+          order: 3;
+          /* tercera columna */
+  }
+
+  /* Facilitamos el uso de tres columnas para casos concretos  */
+  @media all and (max-width: 640px) {
+
+          main {
+                  flex-direction: column;
+          }
+          aside{
+                text-align:center;
+          }
+          aside img {
+                  width: 50%;
+          }
+
+
+          header,
+          footer {
+                  min-height: 50px;
+                  max-height: 50px;
+          }
+  }

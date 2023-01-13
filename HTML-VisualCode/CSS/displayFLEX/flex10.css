@@ -1,0 +1,41 @@
+	
+article {
+	margin:2px;
+}	
+
+.padre{
+    display: flex;
+	flex-direction: row;
+	border:2px solid red;
+
+}
+.cajaroja {
+	background-color:red;
+	width:200px;
+	height: 150px;
+}
+
+img {
+	width:200px;
+	height:150px;
+}
+.padre * { /* todos los hijos parten de un tamaño base */
+    flex-basis: 200px;
+}
+
+.padre :nth-child(1){ /* párrafo */
+    order:2;
+    flex-grow:2;
+    }
+.padre :nth-child(2){ /* caja roja */
+    order:1;
+    flex-grow:1;
+    }
+.padre :nth-child(3){ /* santiago1 */
+    order:3;
+    flex-grow:0;
+    }
+.padre :nth-child(4){ /* santiago2 */
+    order:4;
+    flex-grow:0;
+    }

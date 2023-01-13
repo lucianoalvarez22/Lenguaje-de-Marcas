@@ -1,0 +1,32 @@
+article {
+	margin:2px;
+}	
+
+.padre{
+    display: flex;
+	flex-direction: row;
+	border:2px solid red;	
+}
+.cajaroja {
+	background-color:red;
+	width:200px;
+	height: 150px;
+}
+
+img {
+	width:200px;
+	height:150px;
+}
+    
+.padre :nth-child(1){ /* ceuta */
+    order:3;
+}
+.padre :nth-child(2){ /* caja roja */
+    order:-1;
+}
+.padre :nth-child(3){ /* santiago1 */
+    order:2;
+}
+.padre :nth-child(4){ /* santiago2 */
+    order:2;
+}

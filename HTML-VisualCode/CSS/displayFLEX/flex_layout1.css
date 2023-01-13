@@ -1,0 +1,29 @@
+.padre {
+   width: 650px;
+   border: 1px solid #555;
+   display: flex;
+}
+
+.padre div { 
+
+   width: 33%;   /* este dato es el que será tenido en cuenta en la transición de transition */
+
+   transition: width 0.7s ease-out; /* hacemos transición cuanndo pasemos por encima modificando width */
+}
+
+.padre :nth-child(1) {
+   background: #009246;
+}
+
+.padre :nth-child(2) {
+   background: #F1F2F1;
+}
+
+.padre :nth-child(3) {
+   background: #CE2B37;
+}
+
+
+.padre div:hover {
+   width: 80%;
+}

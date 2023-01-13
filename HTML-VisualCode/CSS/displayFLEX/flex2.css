@@ -1,0 +1,40 @@
+article {
+	margin:2px;
+}	
+
+.padre1{
+    display: flex;
+	flex-direction: row;
+	border:2px solid green;
+}
+
+.padre2 {
+	display: flex;
+	flex-direction: row-reverse;
+	border:2px solid red;
+}
+
+.padre3{
+    display: flex;
+	flex-direction: column;
+	border:2px solid orange;
+	height:500px;
+}
+
+.padre4{
+    display: flex;
+	flex-direction: column-reverse;
+	border:2px solid pink;
+	height:500px;
+}
+
+.cajaroja {
+	background-color:red;
+	width:200px;
+	height: 150px;
+}
+
+img {
+	width:200px;
+	height:150px;
+}

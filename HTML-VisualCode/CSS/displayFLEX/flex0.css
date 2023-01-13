@@ -1,0 +1,51 @@
+.caja1 {
+    display:block; /* div por defecto es block */
+    background-color:red;
+    width:80px;
+    height:40px;
+    margin-top:10px;
+  }
+  .caja2 {
+    display:inline; /* cambiamos a inline y los valores de altura,anchura y márgenes verticales no se aplican además de aparecer siguiendo la línea de contenidos sin salto */
+    background-color:red;
+    width:80px;
+    height:40px;
+    margin-top:10px;
+  }
+  .caja3 {
+    display:inline-block; /* cambiamos a inline-block
+    y los valores de altura,anchura y márgenes verticales se respetan pero manteniendo la línea de contenidos */
+    background-color:red;
+    width:80px;
+    height:40px;
+    margin-top:10px;
+  }
+  .caja4 {    
+ /* probar display:inline-bock;*/
+    background-color:red;
+    width:80px;
+    height:40px;
+    margin-top:10px;
+    overflow:visible; 
+  }
+  .caja5 {
+    background-color:red;
+    width:80px;
+    height:40px;
+    margin-top:10px;
+    overflow:hidden; 
+  }
+  .caja6 {
+    background-color:red;
+    width:80px;
+    height:90px;
+    margin-top:10px;
+    overflow:scroll; 
+  }
+  .caja7 {
+    background-color:red;
+    width:80px;
+    height:90px;
+    margin-top:10px;
+ 
+  }

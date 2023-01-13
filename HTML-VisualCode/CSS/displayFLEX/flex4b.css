@@ -1,0 +1,18 @@
+h1, h2, figcaption { 
+    text-align:center;
+}
+
+article {
+	margin:2px;
+}	
+
+.padre{
+    display: flex;
+	flex-direction: row; /* por defecto */
+	justify-content: space-around;
+}
+
+img {
+	width:200px;
+	height:150px;
+}

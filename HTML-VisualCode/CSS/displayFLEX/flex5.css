@@ -1,0 +1,57 @@
+
+article {
+	margin: 2px;
+    height: 190px;
+	margin:10px;
+}	
+
+.padre1{
+    display: flex;
+	flex-direction: row;
+	border:2px solid red;
+	align-items: stretch; /* intenta ocupar todo el alto del padre salvo que tenga limite de altura el elemento hijo*/
+}
+ .padre1 div, .padre1 img {
+	height: auto; /* como si no tuviera altura fija */
+} 
+.padre2{
+    display: flex;
+	flex-direction: row;
+	border:2px solid green;
+	align-items: flex-start;
+}
+
+.padre3{
+    display: flex;
+	flex-direction: row;
+	border:2px solid orange;
+	align-items: flex-end;
+}
+.padre4{
+    display: flex;
+	flex-direction: row;
+	border:2px solid orange;
+	align-items: center;
+}
+.padre5{
+    display: flex;
+	flex-direction: row;
+	border:2px solid orange;
+	align-items: baseline; /* probsr con center para comparar */
+
+}
+.cajaroja {
+	background-color:red;
+	width:200px;
+	height: 150px;
+}
+.padre5 .cajaroja {
+	height: 90px;
+}
+.padre5 :nth-child(1) {
+	height: 110px;
+}
+img {
+	width:200px;
+	height:150px;
+}

@@ -1,0 +1,53 @@
+article {
+	margin:2px;
+    height:200px;
+}	
+
+.padre1{
+    display: flex;
+	flex-direction: row;
+	border:2px solid red;
+	justify-content: center;  
+	 /*Los elementos (hijoS) - flex están alineados al centro del contenedor (padre) - flex.*/
+}
+.padre2{
+    display: flex;
+	flex-direction: row;
+	border:2px solid green;
+	justify-content: flex-start;  /* por defecto */
+	 /*Los elementos(hijos) - flex están alineados con el lado izquierdo del contenedor(padre) - flex.*/
+}
+
+.padre3{
+    display: flex;
+	flex-direction: row;
+	border:2px solid orange;
+	justify-content: flex-end; /*Los elementos - flex están alineados con el lado derecho del contenedor - flex.*/
+}
+.padre4{
+    display: flex;
+	flex-direction: row;
+	border:2px solid orange;
+	justify-content: space-between; /*Los elementos - flex tienen la misma distancia entre ellos, pero el primero y el último elemento - flex están alineados con los bordes del contenedor - flex.*/
+}
+.padre5{
+    display: flex;
+	flex-direction: row-reverse;
+	border:2px solid orange;
+	justify-content: space-around; /*Los elementos - flex tienen la misma distancia entre ellos, incluso el primero y el último elemento - flex.*/
+}
+.padre6{
+    display: flex;
+	flex-direction: row;
+	border:2px solid orange;
+	justify-content: space-evenly; /* Distribuye como space-around, pero con un espacio exactamente igual alrededor de ellos.*/
+}
+.cajaroja {
+	background-color:red;
+	width:200px;
+	height: 150px;
+}
+img {
+	width:200px;
+	height:150px;
+}

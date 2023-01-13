@@ -1,0 +1,50 @@
+	
+article {
+    width: 50%;
+	margin: 2px;
+    height: 400px;
+}	
+
+.padre1{
+    display: flex;
+	border:2px solid red;
+    flex-wrap: wrap;
+    align-content: flex-start;
+	
+}
+.padre2{
+    display: flex;
+	border:2px solid green;
+    flex-wrap: wrap;
+    align-content: flex-end;	
+}
+
+.padre3{
+    display: flex;
+	border:2px solid orange;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.padre4{
+    display: flex;
+	border:2px solid orange;
+    flex-wrap: wrap;
+	align-content: space-between;
+}
+.padre5{
+    display: flex;
+	border:2px solid orange;
+    flex-wrap: wrap;
+	align-content: space-around;
+}
+.cajaroja {
+	background-color:red;
+	width:200px;
+	height: 150px;
+}
+
+img {
+	width:200px;
+	height:150px;
+}

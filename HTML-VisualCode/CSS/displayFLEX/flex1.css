@@ -1,0 +1,15 @@
+.padre{
+    display: flex;
+    flex-direction:row;
+ 	border:2px solid green;
+	margin-bottom:10px;
+}
+
+section img {
+    width:200px;
+    height: 150px;
+}
+
+section :first-child {
+    width:50%;
+}
