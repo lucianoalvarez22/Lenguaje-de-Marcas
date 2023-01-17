@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Esta pagina esta acabando el martes</title>
+<link>https://www.paginadelmartes.com</link>
+<description>Lorem ipsum</description>
+
+<item>
+    <title>Esta pagina esta acabando el martes</title>
+    <link>https://www.paginadelmartes.com/primera.html</link>
+    <description>Lorem ipsum</description>
+</item>
+</channel>
+</rss>
