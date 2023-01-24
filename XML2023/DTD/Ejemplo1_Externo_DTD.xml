@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autor SYSTEM "Ejemplo1_externo">
+<autor>  <!--No se puede repetir el nombre del elemento-etiqueta -->
+    <nombre>Alejandro Romero</nombre>
+    <empresa>
+    <nombreEmpresa>Software Acuze</nombreEmpresa>
+    <ciudad>Sevilla</ciudad>
+    <informatica>SI</informatica>
+    </empresa>
+    <telefono>48ty5744</telefono>
+</autor>

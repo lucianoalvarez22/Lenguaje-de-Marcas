@@ -1,0 +1,7 @@
+<!ELEMENT autor (nombre, empresa, telefono)> <!-- Si pongo * puede aparecer ninguna vez o muchas  veces. Si pongo un + tiene que aparecer al menos una vez.  -->
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT empresa (nombreEmpresa,ciudad,informatica?)> <!-- informatica? quiere decir que es OPCIONAL "?" -->
+<!ELEMENT nombreEmpresa (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT informatica (#PCDATA)> <!--Para decir  que el elemento informatica, si aparece, estará vacio. informatica(EMPTY)-->
+<!ELEMENT telefono (#PCDATA)>  <!--PCDATA significa que puede haber cualquier caracter-->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE autor[
+<!ELEMENT autor (nombre, empresa, telefono)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT empresa (nombreEmpresa,ciudad)>
+<!ELEMENT nombreEmpresa (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>  <!--PCDATA significa que puede haber cualquier caracter-->
+]>
+
+<autor>  <!--No se puede repetir el nombre del elemento-etiqueta -->
+    <nombre>Alejandro Romero</nombre>
+    <empresa>
+    <nombreEmpresa>Software Acuze</nombreEmpresa>
+    <ciudad>Sevilla</ciudad>
+    </empresa>
+    <telefono>48ty5744</telefono>
+</autor>
