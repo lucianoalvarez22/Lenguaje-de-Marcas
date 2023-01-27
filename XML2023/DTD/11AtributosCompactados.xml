@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE peliculas [
+   <!ELEMENT peliculas (pelicula)*>
+   <!ELEMENT pelicula (#PCDATA)>
+      <!ATTLIST pelicula
+        IDpelicula ID #REQUIRED
+        valoracion CDATA "Pendiente">
+ ]>
+
+<peliculas>
+   <pelicula  IDpelicula="p1" valoracion="9">Pulp Fiction</pelicula>
+   <pelicula  IDpelicula="p4">Trainspotting</pelicula>
+</peliculas>

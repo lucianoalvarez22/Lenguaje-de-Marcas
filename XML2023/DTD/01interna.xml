@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE autor [
+   <!ELEMENT autor (nombre, empresa, telefono)>
+   <!ELEMENT nombre (#PCDATA)>
+   <!ELEMENT empresa (#PCDATA)>
+   <!ELEMENT telefono (#PCDATA)>
+]>
+<autor>
+   <nombre>Alejandro Romero Torres</nombre>
+   <empresa>Software Alcuza</empresa>
+   <telefono>954119023</telefono>
+</autor>

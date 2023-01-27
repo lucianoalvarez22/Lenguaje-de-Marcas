@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE clase SYSTEM "05clase.dtd">
+<clase>
+    <profesor>Juan López López</profesor>
+    <alumno>
+    	<nombre>Casimiro</nombre>
+    	<direccion>Avenida de Hytasa 34, 2ºB</direccion>
+    	<ciudad>Sevilla</ciudad>
+    </alumno>
+    <alumno>
+    	<nombre>Ana</nombre>
+    	<direccion>Ronda del Tamarguillo 98, bajo D</direccion>
+    	<ciudad>Sevilla</ciudad>
+    	<cursocompleto/>
+    </alumno>
+ </clase>

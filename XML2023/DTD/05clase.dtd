@@ -1,0 +1,7 @@
+<!ELEMENT clase (profesor, alumno*)>
+  <!ELEMENT profesor (#PCDATA)>
+  <!ELEMENT alumno (nombre, direccion, ciudad, cursocompleto?)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT direccion (#PCDATA)>
+  <!ELEMENT ciudad (#PCDATA)>
+  <!ELEMENT cursocompleto EMPTY>

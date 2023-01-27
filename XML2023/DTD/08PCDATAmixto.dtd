@@ -1,0 +1,3 @@
+<!ELEMENT texto (titulo)>
+<!ELEMENT titulo (#PCDATA | parrafo)*>
+<!ELEMENT parrafo (#PCDATA)>
