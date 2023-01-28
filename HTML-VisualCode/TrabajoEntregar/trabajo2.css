@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(16, 146, 185);
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.contenedor1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ ul li{
+    list-style: none;
+    padding: 10px;
+    margin-top: 15px;
+    outline-style: hidden;
+}
+
+.titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: bold;
+    color: #343759;
+    font-size: 60px;
+    text-align: center;
+}
+
+.subtitulo {
+    border: 1px solid #343759;
+    font-family: Georgia, 'Times New Roman', Times, serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font: bolder;
+    color: #343759;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 0px #343759;
+}
+
+.subtitulo:hover{
+    background: #343759;
+    color: #f1f1f2;
+    transition: .5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    height: 100vh;
+}
+
+.tabla {
+    text-align: center;
+    justify-content: space-around;
+    width: 33%;
+    height: 550px;
+    margin: auto;
+    border: 1px solid #343759;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px #343759;
+    padding: 60px;
+    color: #343759;
+}
+
+.tabla>h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.tabla>h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.tabla > p {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tabla img {
+    width: 64px;
+    margin-bottom: 35px;
+}
+
+.boton {
+    display: inline-block;
+    width: 150px;
+    padding: 12px;
+    background: #0c6438;
+    text-decoration: none;
+    color: #c6ecd9;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin: auto;
+}
+
+.tabla:hover{
+    background: #343759;
+    color: #f1f1f2;
+    transition: .5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.boton:hover{
+    background: #17b164;
+    color: #343759;
+    transition: 0.2 all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
