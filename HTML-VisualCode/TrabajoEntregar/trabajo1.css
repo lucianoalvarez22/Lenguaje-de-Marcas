@@ -1,0 +1,106 @@
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+ 
+/* No olvides definir estilos para focus */
+:focus {
+  outline: 0;
+}
+ 
+/* No olvides resaltar de alguna manera el texto insertado/borrado */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+ 
+/* En el c�digo HTML es necesario a�adir cellspacing="0" */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS para el menu */
+
+header {
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    background-color: #33FFF9;
+    height: 70px;
+}
+
+header section {
+  font-size: 15px;
+  padding-left: 8px;
+  font-weight: bold;
+}
+
+header section h1 {
+  font-size: 30px;
+  font-family: Helvetica;
+}
+
+header nav {
+  padding-right: 30px;
+}
+
+#submenu {
+  position: absolute;
+  background: gray;
+  flex-direction: column;
+}
+
+/* CSS para MAIN */
+
+main {
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.ultima img {
+  padding-right: 10px;
+}
+
+figure img {
+  padding-left: 10px;
+  width: 620px;
+  height: 620px;
+}
+
+
+
+/* CSS para el footer */
+
+footer {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    background-color: #12EC0F;
+}
+
+footer nav {
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+}
+
+ul li a{
+  padding: 5px;
+}
