@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss  version="2.0">
-	<channel>
-	  <title>VerticalGarden - Products</title>
-	  <link>https://www.verticalgardendesign.com/products</link>
-	  <description>Oferta de productos de VerticalGarden</description>
-	  <language>en</language>
-		<item>
-			<title>VERTICAL GARDEN</title>
-			<link>https://www.verticalgardendesign.com/products/vertical-garden</link>
-			<description>Como una de las empresas pioneras en jardinería vertical, tenemos la experiencia para ofrecer soluciones duraderas a cualquier escala. Ayudamos a los clientes en cada paso, desde la planificación hasta el diseño, la instalación y el mantenimiento. Nuestra experiencia en arquitectura paisajista garantiza un diseño de plantación profesional con beneficios de bajo mantenimiento, diversidad de plantas y belleza natural durante todo el año.</description>
-		</item>
-    <item>
-		  <title>PINÁCULO</title>
-		  <link>https://www.verticalgardendesign.com/products/pinnacle</link>
-		  <description>Pinnacle es una escultura de plantas y un jardín vertical independiente con plantas por todos lados. Se puede moldear individualmente para crear una silueta de paisaje única o un monolito.</description>
-		</item>
-		<item>
-		  <title>CANOPY</title>
-		  <link>https://www.verticalgardendesign.com/products/canopy</link>
-		  <description>Canopy es un jardín suspendido para hacer techos vegetales. Las plantas en cascada cuelgan varios metros y se riegan automáticamente.</description>
-		</item>
-	</channel>
+<rss version="2.0">
+<channel>
+<title>Vertical Garden Design</title>
+<link>https://verticalgardendesign.com</link>
+<description>Diseños de arquitectura con jardines verticales</description>
+<language>en</language>
+
+<image>
+<title>Imagen vertical</title>
+<url>https://www.verticalgardendesign.com/application/files/thumbnails/half/7916/0322/0639/Espaco_Espelho_1320_Vertical_Garden_Design_Lisbon_Portugal_1.jpg</url>
+<link>https://www.verticalgardendesign.com</link>
+</image>
+
+<item>
+
+<title>Vertical garden</title>
+<link>https://www.verticalgardendesign.com/products/vertical-garden</link>
+<description>Our vertical gardens can be installed indoors and outdoors, and made in any shape and size. The lightweight planting system is manufactured from quality materials that last and comes with automatic irrigation and fertilization. With a high density of plants a lush and green garden is achieved early on from installation.</description>
+</item>
+
+
+<item>
+
+<title>Pinnacle</title>
+<link>https://www.verticalgardendesign.com/products/pinnacle</link>
+<description>Pinnacle is a plant sculpture and freestanding vertical garden with plants on all sides. It can be individually shaped to create a unique landscape silhouette or a monolith.</description>
+
+</item>
+
+<item>
+	
+<title>Canopy</title>
+<link>https://www.verticalgardendesign.com/products/canopy</link>
+<description>Canopy is a suspended garden for making plant ceilings. Cascading plants hang down several meters and are irrigated automatically.</description>
+
+</item>
+
+</channel>
 </rss>
