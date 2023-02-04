@@ -53,10 +53,9 @@ body {
 }
 
 .contenedor2 {
-    width: 90%;
-    max-width: 900px;
+    width: 60%;
     margin: auto;
-    height: 100vh;
+    height: 80%;
     display: flex;
     text-align: justify;
     justify-content: space-around;
