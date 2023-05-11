@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="galeria.xsl"?>
+<galeria nombre="Casimiro Ynoteveo">
+<imagen autor="Francisco" nivel="3" titulo="Desde la torre de Belem">lisboa.png</imagen>
+<imagen autor="Luisa" nivel="2" titulo="Plaza de San Pedro">roma.png</imagen>
+<imagen autor="Luisa" nivel="3" titulo="Montando en tranvía">lisboa.png</imagen>
+<imagen autor="Ana" nivel="1" titulo="Coliseo en llamas">roma.png</imagen>
+<imagen autor="Ana" nivel="1" titulo="Coliseo en llamas">roma.png</imagen>
+</galeria>

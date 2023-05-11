@@ -1,0 +1,22 @@
+<!ELEMENT ediciones (cabecera, tabla)>
+<!ELEMENT cabecera (titulo, contenido, descripcion)>
+  <!ATTLIST cabecera fecha CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT tabla (norte, centro, sur)>
+<!ELEMENT norte (lib_vendidos)+>
+  <!ATTLIST norte nombre CDATA #REQUIRED>
+  <!ATTLIST lib_vendidos trimestre (1 | 2 | 3 | 4) #REQUIRED>
+<!ELEMENT centro (lib_vendidos)+>
+  <!ATTLIST centro nombre CDATA #REQUIRED>
+  <!ATTLIST lib_vendidos trimestre (1 | 2 | 3 | 4) #REQUIRED>
+<!ELEMENT sur (lib_vendidos)+>
+  <!ATTLIST sur nombre CDATA #REQUIRED>
+  <!ATTLIST lib_vendidos trimestre (1 | 2 | 3 | 4) #REQUIRED>
+  <!ELEMENT lib_vendidos (#PCDATA)>
+
+<!--La fecha lo he puesto como atributo de cabecera -->
+<!-- El nombre lo he puesto como atributo en las etiquetas, norte, ,centro y sur-->
+<!-- He puesto trimestre como atributo dentro de lib_vendido. Al validar el xml, me lo da por valido pero me pone 2 avisos -->
+

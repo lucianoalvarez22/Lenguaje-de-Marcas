@@ -1,0 +1,17 @@
+<!ELEMENT listado (persona*,provincias)>
+<!ELEMENT persona (nombre, nacimiento?, direccion+) >
+<!ATTLIST persona sexo (H|M|N) #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nacimiento EMPTY>
+<!ATTLIST nacimiento
+          anyo CDATA #REQUIRED
+          dia CDATA #REQUIRED
+          mes CDATA #REQUIRED>
+<!ELEMENT direccion (calle, poblacion, cpostal)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ATTLIST poblacion prov IDREF #REQUIRED>
+<!ELEMENT cpostal (#PCDATA)>
+<!ELEMENT provincias (provincia*)>
+<!ELEMENT provincia (#PCDATA)>
+  <!ATTLIST provincia idProv ID #REQUIRED>

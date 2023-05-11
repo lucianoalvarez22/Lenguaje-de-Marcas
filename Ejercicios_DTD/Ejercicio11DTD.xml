@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE bibliotecas SYSTEM "Ejercicio11DTD.dtd">
+
+<bibliotecas>
+
+<biblioteca>
+<ubicacion zona="Centro"></ubicacion>
+
+<libro ISBN="ISBN0764526413" codInterno="L1">
+<titulo>La sombra del viento</titulo>
+<fotoportada fuente="portada"/>
+<editorial>Planeta Libros</editorial>
+<autor>Carlos Ruiz Zafón</autor>
+<donacion/>
+</libro>
+
+<libro ISBN="ISBN0764345413" codInterno="L2">
+<titulo>El prisionero del cielo</titulo>
+<fotoportada fuente="portada"/>
+<editorial>Planeta Libros</editorial>
+<autores>Carlos Ruiz Zafón y Borja Villaseca</autores>
+</libro>
+
+</biblioteca>
+
+<biblioteca>
+<ubicacion zona="Sur"></ubicacion>
+
+<libro ISBN="ISBN011111111" codInterno="L3">
+<titulo>Marina</titulo>
+<fotoportada fuente="portada"/>
+<editorial>Planeta Libros</editorial>
+<autor>Victor hugo</autor>
+<donacion/>
+</libro>
+
+<libro ISBN="ISBN02222222" codInterno="L4">
+<titulo>Los libros olvidados</titulo>
+<fotoportada fuente="portada"/>
+<editorial>Planeta Libros</editorial>
+<autor>Miguel de cervantes</autor>
+</libro>
+
+</biblioteca>
+
+</bibliotecas>

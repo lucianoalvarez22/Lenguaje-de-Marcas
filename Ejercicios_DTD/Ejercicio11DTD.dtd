@@ -1,0 +1,26 @@
+
+<!ELEMENT bibliotecas (biblioteca*)>
+<!ELEMENT biblioteca (ubicacion, libro+)+>
+<!ELEMENT ubicacion (#PCDATA)>
+<!ATTLIST ubicacion zona (Centro | Norte | Sur) #REQUIRED>
+<!ELEMENT libro (titulo, fotoportada, editorial, (autor | autores), donacion?)>
+<!ATTLIST libro codInterno CDATA #REQUIRED>
+<!ATTLIST libro ISBN ID #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT fotoportada EMPTY>
+<!ATTLIST fotoportada fuente ENTITY #REQUIRED>
+<!ENTITY portada SYSTEM "portada.gif" NDATA gif>
+<!NOTATION gif SYSTEM "image/gif">
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT autor (#PCDATA)>
+<!ELEMENT autores (#PCDATA)>
+<!ELEMENT donacion EMPTY>
+
+<!-- He creado el elemento raiz bibliotecas al que dentro le he creado un elemento biblioteca que puede aparecer 0 o mas veces -->
+<!-- Al elemento biblioteca he creido correcto que pueda haber muchas bibliotecas porque luego en el ejercicio dice que puede haber bibliotecas en distintas ubicaciones -->
+<!-- Al elemento biblioteca le he creado dos elementos dentro. Ubicacion que será obligatoria y tendrá un atributo obligatorio en el que se podra elegir entre centro,norte y sur -->
+<!-- En cuanto al elemento libro, le he creado varios elementos dentro como titulo, fotoportada, editorial, dos elementos a elegir entre autor o autores en caso de que haya mas de un autor, y la donacion -->
+<!-- En el ejercicio pone que pongamos un codigo interno al libro pero también pone que le pongamos un ISBN, asi que el ISBN lo he puesto como un atirbuto ID ya que debe ser unico y el codigo interno lo he puesto como atributo y obligatorio ambos -->
+<!--El elemento titulo sin más, obligatorio -->
+<!-- El elelmento fotoportada lo he puesto como vacio y como una entidad, con su notacion. Tengo una duda aqui y es que no he conseguido hacer que cada libro tenga un nombre de portada distinto. Todos les he puesto "portada" y claro, cada libro deberia tener una portada distinta -->
+<!-- En cuanto a lo demás elementos, auto y autores como PCDATA y el elemento donacion lo he puesto como opcional y EMPTY al ser un elemento que podria ser booleano a respuesta de SI O NO como dice el ejercicio. -->

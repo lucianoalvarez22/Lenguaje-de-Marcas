@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE listado SYSTEM "Ejercicio9bDTD.dtd">
+<listado>
+  <persona sexo="H">
+    <nombre>Juan Pardo</nombre>
+    <nacimiento dia="10" mes="4" anyo="1982"/>
+    <direccion>
+      <calle>Caoba, 1</calle>
+      <poblacion prov="p28">Madrid</poblacion>
+      <cpostal>28005</cpostal>
+    </direccion>
+  </persona>
+  <persona sexo="M">
+    <nombre>Juana Pardo</nombre>
+    <nacimiento dia="10" mes="4" anyo="1982"/>
+    <direccion>
+      <calle>Caoba, 1</calle>
+      <poblacion prov="p41">Camas</poblacion>
+      <cpostal>28005</cpostal>
+    </direccion>
+    <direccion>
+      <calle>Caoba, 1</calle>
+      <poblacion prov="p41">Sevilla</poblacion>
+      <cpostal>28005</cpostal>
+    </direccion>
+  </persona>
+  <provincias>
+    <provincia idProv="p41">Sevilla</provincia>
+    <provincia idProv="p34">Inventada</provincia>
+    <provincia idProv="p28">Madrid</provincia>
+  </provincias>
+</listado>

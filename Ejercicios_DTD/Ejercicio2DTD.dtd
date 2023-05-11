@@ -1,0 +1,12 @@
+<!ELEMENT geometria (forma+)>
+<!ELEMENT forma (nombre, caracteristicas, numladoss)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT caracteristicas ((color, tipo)|descripción)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT numlados (#PCDATA)>
+
+ <!-- En numlados he puesto opcional porque en el xml hay una etiqueta numlados que aparece vacia -->
+ <!-- en color, tipo y descripcion he puesto opcional porque he visto que dentro de caracteristica pueden aparecer o no -->
+ 

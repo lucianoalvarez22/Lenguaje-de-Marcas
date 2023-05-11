@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE ediciones SYSTEM "Ejercicio7DTD.dtd">
+<ediciones>
+
+  <cabecera fecha="30/12/2009">
+    <titulo>Ediciones</titulo>
+    <contenido>Informe regional de ventas</contenido>
+    <descripcion>Descripcion: informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+  </cabecera>
+  <tabla>
+      <norte nombre="Norte">
+        <lib_vendidos trimestre="1">24000</lib_vendidos>
+        <lib_vendidos trimestre="2">38600</lib_vendidos>
+        <lib_vendidos trimestre="3">NO_INFO</lib_vendidos>
+        <lib_vendidos trimestre="4">NO_INFO</lib_vendidos>
+      </norte>
+      
+      <centro nombre="Centro">
+        <lib_vendidos trimestre="1">NO_INFO</lib_vendidos>
+        <lib_vendidos trimestre="2">16080</lib_vendidos>
+        <lib_vendidos trimestre="3">25000</lib_vendidos>
+        <lib_vendidos trimestre="4">29000</lib_vendidos>
+      </centro>
+      
+      <sur nombre="Sur">
+        <lib_vendidos trimestre="1">27000</lib_vendidos>
+        <lib_vendidos trimestre="2">31400</lib_vendidos>
+        <lib_vendidos trimestre="3">40100</lib_vendidos>
+        <lib_vendidos trimestre="4">30000</lib_vendidos>
+      </sur>
+  </tabla>
+</ediciones>

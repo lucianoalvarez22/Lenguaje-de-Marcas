@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalogoLibro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="catalogo_libros.xsd">
+
+<libro categoria="ficcion" enstock="true">
+<titulo>Los hombres que no amaban a las mujeres</titulo>
+<autor>Stieg Larsson</autor>
+<fecha>
+<año>2008</año>
+</fecha>
+<ISBN>978-84-233-4044-6</ISBN>
+<editor>Destino</editor>
+</libro>
+
+<!-- Segun el ejercicio 6, el primer elemento libro tiene como atributos categoria y enstock es true. Elementos titulo, autor, fecha, solo tiene año, ISBN  y editor -->
+
+<libro categoria="noficcion" enstock="false" revisor="Carlos Montes">
+<titulo>Java a través de ejemplos</titulo>
+<autor>Jesus Bobadillo</autor>
+<autor>Adela Sancho</autor>
+<fecha>
+<año>2003</año>
+</fecha>
+<ISBN>84-7897-549-7</ISBN>
+<editor>Ra-ma</editor>
+</libro>
+
+<!-- Segun el ejercicio 6, a diferencia con el anterior, tiene como atributo enstock en FALSE, ńo sé si hacía falta ponerlo o no porque por defecto dice que es false -->
+<!-- También tiene revisor como atributo -->
+<!-- Y otra diferencia es que, en este caso, hay dos elementos autor ya que el libro cuenta como mas de un autor. Por lo demás es todo igual al anterior. Tampoco tiene mes -->
+
+</catalogoLibro>

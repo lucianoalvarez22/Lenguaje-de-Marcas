@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE lunas [
+   <!ELEMENT lunas (luna+)>
+   <!ELEMENT luna EMPTY>
+      <!ATTLIST luna numero ID #REQUIRED>
+      <!ATTLIST luna nivel CDATA #REQUIRED>
+      <!ATTLIST luna planeta CDATA #IMPLIED>
+]>
+<lunas>
+   <luna numero="N234" nivel="H1"/>
+   <luna numero="N479" nivel="H2" planeta="Saturno"/>
+   <luna numero="N566" nivel="H2" planeta="Saturno"/>
+   <luna numero="N607" nivel="H3" planeta="Urano"/>
+</lunas>
+
+<!-- Modificando la DTD -->
+<!-- He añadido el elemento razin lunas y dentro el elemento luna con un + ya que se repite minimo una vez -->
+<!-- Tanto al atributo nivel como planeta les he puesto el CDATA que les faltaba --> 
+<!-- He añadido arriba el standlone=yes --> 

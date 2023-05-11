@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="ejercicio9">
+  
+  
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="matriculaParcial" minOccurs="0" maxOccurs="1" type="tipoVacio"/> <!--Elemento simple con restriccion de 0 caracteres -->
+        
+        
+        
+        
+        <xs:element ref="matricula" minOccurs="0" maxOccurs="1"/>
+        <xs:element ref="caso3" minOccurs="0" maxOccurs="1"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  <!--FIN DE LA ESTRUCTURA -->
+  
+  
+  <!-- DEFINO LOS TIPOS PERSONALIZADOS -->
+  <xs:simpleType name="tipoVacio">
+        <xs:restriction base="xs:string">
+        <xs:length value="0"/>
+        </xs:restriction>
+        </xs:simpleType>
+        
+         <xs:simpleType name="tipoPT">
+        <xs:restriction base="xs:string">
+        <xs:enumeration value="parcial"/>
+             <xs:enumeration value="total"/>
+        </xs:restriction>
+        </xs:simpleType>
+        
+  
+  
+  <!-- DEFINO LOS ATRIBUTOS DE LOS TIPOS COMPLEJOS -->
+  <xs:element name="matricula">
+    <xs:complexType>
+    <xs:sequence>
+    <xs:element name="mes" type="xs:positiveInteger" minOccurs="1" maxOccurs="1"/>
+    <xs:element name="dia" type="xs:positiveInteger" minOccurs="1" maxOccurs="1"/>
+    </xs:sequence>
+      <xs:attribute name="activado" type="xs:string" use="required"/>
+    </xs:complexType>
+    
+    
+  </xs:element>
+  <xs:element name="caso3">
+    <xs:complexType>
+      <xs:attribute name="activado" type="tipoPT" use="required"/>
+    </xs:complexType>
+    
+    
+    
+    
+    
+  </xs:element>
+</xs:schema>

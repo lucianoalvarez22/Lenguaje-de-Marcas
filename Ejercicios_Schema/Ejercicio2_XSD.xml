@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<marcadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:noNamespaceSchemaLocation="Ejercicio02Schema.xsd">
+
+<pagina>
+<nombre>kdnk</nombre>
+<descripcion>knvd</descripcion>
+<url>kvkdb</url>
+</pagina>
+
+<pagina>
+<nombre>kxv</nombre>
+<descripcion>kxvn</descripcion>
+<url>lvmdl</url>
+</pagina>
+
+<pagina>
+<nombre>lcbm</nombre>
+<descripcion>lbf</descripcion>
+<url>ñbfñ</url>
+</pagina>
+
+</marcadores>

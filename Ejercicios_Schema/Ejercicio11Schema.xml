@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<alumno xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="Ejercicio11Schema.xsd">
+
+<curso num="1"/>
+
+</alumno>
+
+<!-- Hay dos elementos complejos, alumno y curso -->
+<!-- Y curso también es complejo porque, a pesar de no tener elementos hijos, SÍ tiene un atributo -->
+<!-- El atributo es requerido y se puede elegir entre tres opciones -->

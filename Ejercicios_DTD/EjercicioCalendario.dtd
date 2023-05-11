@@ -1,0 +1,15 @@
+<!ELEMENT calendario (mes+)>
+<!ATTLIST calendario anio CDATA #REQUIRED>
+<!ELEMENT mes (semanas+)>
+<!ATTLIST mes nombre  CDATA #REQUIRED>
+<!ELEMENT semanas (dia+)>
+<!ATTLIST semanas numero  CDATA #REQUIRED>
+<!ELEMENT dia (numero, imagen?, festivo?, descripcion)>
+<!ATTLIST dia nombre (L | M | X | J | V | S | D) #REQUIRED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT imagen EMPTY>
+<!ATTLIST imagen fuente ENTITY #REQUIRED>
+<!ENTITY foto SYSTEM "foto.gif" NDATA gif>
+<!NOTATION gif SYSTEM "image/gif">
+<!ELEMENT festivo EMPTY>
+<!ELEMENT descripcion (#PCDATA)>

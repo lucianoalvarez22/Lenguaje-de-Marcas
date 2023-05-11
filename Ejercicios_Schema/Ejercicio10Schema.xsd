@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:element name="aeropuerto">
+    <xs:complexType>
+      <xs:all> <!-- He puesto xs:ALL para que el nombre de aeropuerta, la fecha y los vuelos puedan estar en orden distinto -->
+        <xs:element name="nombre" type="xs:string"/>
+        <xs:element name="fecha" type="xs:date"/> <!--TIpo DATE para fecha -->
+        <xs:element ref="vuelos"/>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:element name="vuelos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="vuelo" minOccurs="0" maxOccurs="unbounded"/> <!-- Aprecerá el elemento vuelo desde cero a ilimitadas veces -->
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  <xs:element name="vuelo">
+    <xs:complexType>
+      <xs:sequence> <!-- Secuence para que aparezca en el mismo orden en el que aparece en el documento XML -->
+        <xs:element name="diario" type="tipoVacio" minOccurs="0" maxOccurs="unbounded"/> <!-- He puesto minOccurs=0 porque en el documento XML no aparente el elemento DIARIO en uno de los elemento VUELO -->
+        <xs:element name="origen" type="xs:string"/>
+        <xs:element name="destino" type="xs:string"/>
+        <xs:element name="hora-salida" type="xs:time"/> <!--TIpo TIME para hora-salida -->
+        <xs:element name="hora-llegada" type="xs:time"/> <!--TIpo TIME para hora-llegada -->
+      </xs:sequence>
+      <xs:attribute name="código" type="xs:ID" use="required"/> <!--EL atributo debe tener un type ID para que sea unico -->
+      
+      <xs:attribute name="estado" default="E"> <!-- EL valor por defecto del atributo será E, por lo que puede NO aparecer -->
+      <xs:simpleType>
+      <xs:restriction base="xs:string">
+      <xs:pattern value="[CER]"/> <!-- Pattern que indica los posible vuelos C(Cancelado)E(En hora) R(Retrasado) -->
+      </xs:restriction>
+      </xs:simpleType>
+      </xs:attribute>
+      
+    </xs:complexType>
+  </xs:element>
+  
+  <!--DEFINO TIPOS PERSONALIZADOS -->
+  <xs:simpleType name="tipoVacio"> <!-- TipoVacio del elemento diario para ponerle una restriccion en el que no se pueda poner ningun elemento dentro -->
+        <xs:restriction base="xs:string">
+        <xs:length value="0"/>
+        </xs:restriction>
+        </xs:simpleType>
+  
+</xs:schema>

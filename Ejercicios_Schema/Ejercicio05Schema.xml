@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio05Schema.xsd">
+
+<ficha codigo="abc1d">
+<nombre>Jose</nombre>
+<edad>34</edad>
+</ficha>
+
+
+<ficha codigo="abc5d">
+<nombre>Luciano</nombre>
+<edad>28</edad>
+</ficha>
+
+
+<ficha codigo="abc6d">
+<nombre>Antonio</nombre>
+<edad>45</edad>
+</ficha>
+
+
+
+
+</fichas>

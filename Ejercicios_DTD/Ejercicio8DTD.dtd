@@ -1,0 +1,9 @@
+<!ELEMENT aviso (titulo | parrafo | grafico)*>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT parrafo (#PCDATA)>
+<!ELEMENT grafico (#PCDATA)>
+<!ATTLIST grafico foto ID #REQUIRED>
+
+<!-- He creado un elemento razin aviso y dentro 3 elementos titutlo, parrafo y grafico -->
+<!-- Esos 3 elementos los he puesto separados con el operador de eleccion y además con un asterisco, lo cual quiere decir que el elemento aviso puede contener varios elementos titulos, parrafo y descripcion y en cualquier orden -->
+<!--- Para finalizar le he añadido un atributo ID obligatorio al elemento grafico llamado "foto" -->

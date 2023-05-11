@@ -1,0 +1,29 @@
+  body {
+    width:70%; 
+    margin:0 auto;
+  }
+  table {
+    border-collapse: collapse
+  }
+    thead tr:nth-child(1) { 
+      color:red;
+      font-size:140%;
+    }
+    tr:nth-child(2) th {
+      text-align:left;
+      border-bottom:2px red solid;
+    }
+    td {
+      width:140px;
+    }
+    
+    tbody tr:nth-child(odd) { 
+      background-color:pink;
+    }
+    #cartel { 
+    width:100px;
+    height: 150px;
+      position: relative;
+      left: 450px;
+      top: -250px;
+    }

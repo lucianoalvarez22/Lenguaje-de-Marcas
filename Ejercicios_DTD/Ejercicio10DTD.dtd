@@ -1,0 +1,24 @@
+<!ELEMENT consesionario (modelos*, descripcion+)>
+<!ELEMENT modelos (modelo+)>
+<!ELEMENT modelo EMPTY>
+  <!ATTLIST modelo idModelo ID #REQUIRED>
+<!ELEMENT descripcion (modelos_relacionados*, motor+, potencia, consumo+, precio)>
+<!ELEMENT modelos_relacionados EMPTY>
+  <!ATTLIST modelos_relacionados model IDREFS #IMPLIED>
+<!ELEMENT motor EMPTY>
+  <!ATTLIST motor mod_rela IDREF #IMPLIED>
+<!ELEMENT potencia (#PCDATA)>
+<!ELEMENT consumo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+
+<!-- Creo que no he sabido entender el ejercicio o interpretar la tabla, sobretodo la columna de Modelos relacionados -->
+<!-- He creado el elemento raiz consesionario y dentro he creados dos elementos: modelos y descripcion -->
+<!-- Modelos lo he puesto como asterisco porque dice que puede estar vacio o contener mas de un modelo distinto -->
+<!-- Dentro de modelos he creado el elemento modelo que estará vacío (empty) y llevará una referencia única como dice el ejercicio -->
+<!-- Dentro del elemento descripcion, he creado modelos_relacionados que irá ligado por medio de IDREFS   opcional a varios ID del elemento modelo -->
+<!-- Siguiendo con descripcion, también dentro he creado el elemento motor con una referencia mediante IDREF y opcional-->
+<!--Tambien estan los elementos potencia y consumo al que le he puesto un + ya que el ejercicio dice que puede incluir mas de un valor de consumo -->
+<!--Como bonus track he creado el elemento precio que tambien viene en la descripcion aunque en el ejercicio no lo indique -->
+
+
+

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+
+  <xs:element name="documento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="region1" type="tipoRegion1"/>
+        <xs:element ref="region2"/>
+        <xs:element ref="region3"/>
+        <xs:element ref="region4"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+
+    <xs:simpleType name ="tipoRegion1">
+     <xs:restriction base="xs:string">
+        <xs:minLength value="0"/>
+        <xs:maxLength value="15"/>
+        </xs:restriction>
+    </xs:simpleType>
+  
+  
+  
+  <xs:element name="region2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ciudad" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="capital" type="xs:string"/>
+        <xs:element name="ciudad" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  <xs:element name="region3">
+    <xs:complexType mixed="true">
+      <xs:attribute name="habitantes" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  <xs:element name="region4">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+  <xs:element name="nombre">
+    <xs:complexType>
+    
+      <xs:attribute name="habitantes" use="required">
+      <xs:simpleType >
+        <xs:restriction base="xs:positiveInteger">
+        <xs:maxInclusive value="900000"/> 
+        </xs:restriction>
+  </xs:simpleType>
+      </xs:attribute>
+      
+      <xs:attribute name="toponimia" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+        <xs:minLength value="0"/> <!-- Restriccion de minimo de caracteres 0 y maximo de 100 -->
+        <xs:maxLength value="100"/>
+        </xs:restriction>
+  </xs:simpleType>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  
+  
+</xs:schema>

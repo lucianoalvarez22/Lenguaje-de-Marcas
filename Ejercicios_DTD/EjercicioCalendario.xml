@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE calendario SYSTEM "EjercicioCalendario.dtd">
+
+<calendario anio="2023">
+
+<mes nombre="Febrero">
+
+<semanas numero ="6">
+
+<dia nombre="X">
+<numero>1</numero>
+<descripcion>Mirar un bloque de anuncios en la television y hablar sobre los trucos</descripcion>
+</dia>
+
+<dia nombre="J">
+<numero>2</numero>
+<descripcion>Buscar que idiomas se hablan en los demás paises de europa</descripcion>
+</dia>
+
+<dia nombre="V">
+<numero>3</numero>
+<descripcion>Clasificar a los animales mas representarivos de cada continente</descripcion>
+</dia>
+
+<dia nombre="S">
+<numero>4</numero>
+<descripcion>Visitar alguna exposicion acto cultural</descripcion>
+</dia>
+
+<dia nombre="D">
+<numero>5</numero>
+<festivo/>
+<descripcion>Comentar en familia cuales son los riesgos del alcohol</descripcion>
+</dia>
+
+</semanas>
+
+
+<semanas numero="7">
+
+<dia nombre="L">
+<numero>6</numero>
+<descripcion>Investigar como se escribe familia en diferentes idiomas</descripcion>
+</dia>
+
+<dia nombre="M">
+<numero>7</numero>
+<imagen fuente="foto"/>
+<descripcion>Analizar como buscar info en internet</descripcion>
+</dia>
+
+<dia nombre="X">
+<numero>2</numero>
+<descripcion>Comentar el modo que tiene cada uno de aprender algunas cosas</descripcion>
+</dia>
+
+<dia nombre="J">
+<numero>2</numero>
+<descripcion>Revisar algunas facturas y calcular el gasto semanal</descripcion>
+</dia>
+
+<dia nombre="V">
+<numero>2</numero>
+<descripcion>Informacion en la web de tu Ayto sobre alguna actividad</descripcion>
+</dia>
+
+<dia nombre="S">
+<numero>2</numero>
+<descripcion>Actividad al aire libre</descripcion>
+</dia>
+
+<dia nombre="D">
+<numero>2</numero>
+<descripcion>Como se escribe el nombre en otro idiomas</descripcion>
+</dia>
+
+</semanas>
+</mes>
+</calendario>

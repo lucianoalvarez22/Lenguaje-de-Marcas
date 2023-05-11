@@ -1,0 +1,22 @@
+<!ELEMENT panel (aeropuerto, vuelos+, fecha)>
+<!ELEMENT aeropuerto (nombre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT vuelos (diario?, origen, destino, horasalida, horallegada)>
+<!ELEMENT diario EMPTY>
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>
+<!ELEMENT horasalida (#PCDATA)>
+<!ELEMENT horallegada (#PCDATA)>
+  <!ATTLIST vuelos codigo ID #REQUIRED>
+  <!ATTLIST vuelos estado (C | E | R) "E">
+<!ELEMENT fecha (#PCDATA)>
+
+<!-- He creado un panel, dentro de ese panel he creado aeropuerto ya que el panel es de solo un aeropuerto en cuestion -->
+<!-- Luego he puesto vuelos+ porque puede haber uno o más vuelos -->
+<!-- En cuanto a fecha lo he puesto obligatorio  porque el panel es solo de esa fecha en concreto -->
+
+<!-- En cuanto a la etiqueta aeropuerto, le he puesto un elemento nombre obligatorio -->
+
+<!-- A la etiqueta vuelos le he puesto elementos diario? (opcional porque puede estar o no según la informacion del panel y EMPTY porque debe estar vacío -->
+<!-- Seguimos en la etiqueta vuelos. Tanto origen, destino, horasalida, horallegada los he puesto obligatorios y en orden como dice el ejercicio -->
+<!-- Y para finalizar con la etiqueta vuelos, le he puesto dos atributos. codigo ID obligatorio y un atributo estado con tres opciones a elegir y por defecto el valor E -->

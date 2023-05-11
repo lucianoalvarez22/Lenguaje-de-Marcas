@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Ejercicio11.xsl"?>
+<pelicula  titulo="Viaje al corazón del hombre" director="Romero Smith" año="2019"  cartel="viajecorazonhombre.gif">
+  <localizacion idLocal="L1">
+    <Continente>África</Continente>
+    <País>Angola</País>
+    <Capital>Luanda</Capital>
+    <responsable>
+  <nombre>Peter</nombre>
+  <apellidos>Storengs</apellidos>
+  <telefono>780000341</telefono>
+  </responsable>
+  </localizacion>
+  <localizacion idLocal="L2">
+    <Continente>América del Norte</Continente>
+    <País>Estados Unidos</País>
+    <Capital>Washington DC</Capital>
+    <responsable>
+  <nombre>Ana</nombre>
+  <apellidos>Delgado Martínez</apellidos>
+  <telefono>678002966</telefono>
+  </responsable>
+    </localizacion>
+  <localizacion idLocal="L3">
+    <Continente>América Central</Continente>
+    <País>México</País>
+    <Capital>Ciudad de México</Capital>
+        <responsable>
+  <nombre>Lucas</nombre>
+  <apellidos>Powermind</apellidos>
+  <telefono>765122132</telefono>
+  </responsable>
+  </localizacion>
+  <localizacion idLocal="L4">
+    <Continente>América del Sur</Continente>
+    <País>Brasil</País>
+    <Capital>Brasília</Capital>
+            <responsable>
+  <nombre>Santiago</nombre>
+  <apellidos>Coreau</apellidos>
+  <telefono>769011765</telefono>
+  </responsable>
+  </localizacion>
+  <localizacion>
+    <Continente>Europa</Continente>
+    <País>España</País>
+    <Capital>Madrid</Capital>
+                <responsable>
+  <nombre>Robert</nombre>
+  <apellidos>Flowers</apellidos>
+  <telefono>769012131</telefono>
+  </responsable>
+  </localizacion>
+
+
+  </pelicula>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE consesionario SYSTEM "Ejercicio10DTD.dtd">
+
+<consesionario>
+
+<modelos>
+<modelo idModelo="M556"/>
+<modelo idModelo="M555"/>
+<modelo idModelo="M557"/>
+<modelo idModelo="M154"/>
+<modelo idModelo="M444"/>
+</modelos>
+
+<descripcion>
+<modelos_relacionados model="M444 M556"/>
+<motor mod_rela="M556"/>
+<potencia>1.998CC-128CV</potencia>
+<consumo>11 a 100km</consumo>
+<precio>2.225.000</precio>
+</descripcion>
+
+<descripcion>
+<modelos_relacionados model="M555 M154"/>
+<motor mod_rela="M556"/>
+<potencia>2.00CC-128CV</potencia>
+<consumo>11 a 100km</consumo>
+<precio>2.500.000</precio>
+</descripcion>
+
+</consesionario>

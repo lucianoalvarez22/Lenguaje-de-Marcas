@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<documento xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="prueba.xsd">
+  <!-- CASO 1 -->
+  <region1>Conchinchina</region1>
+  
+  <!-- CASO 2 -->
+  <region2>
+    <ciudad>Conchinchina</ciudad>
+     <ciudad>Conchinchina</ciudad>
+    <capital>Madrid</capital>
+     <ciudad>Conchinchina</ciudad>
+  </region2>
+  
+  <!-- CASO 3 -->
+  <region3 habitantes="400.000">Conchinchina</region3>
+  
+  <!-- CASO 4 -->
+  <region4><!-- habitantes debe ser menor 900000 y la toponimia es un texto con longitud entre 5 y 15  -->
+    <nombre toponimia="Conchinchina" habitantes="400000"/>
+    <nombre toponimia="Andalucía" habitantes="800000"/>
+  </region4>
+  
+</documento>

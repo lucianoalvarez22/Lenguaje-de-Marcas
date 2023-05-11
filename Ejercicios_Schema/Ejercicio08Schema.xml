@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio08Schema.xsd">
+
+
+<libro codigo="L01" titulo="La sombra del viento">
+<autor>Carlos Ruiz Zafon</autor>
+<editorial nombre="Lengua de trapo"/>
+<edicion>5</edicion>
+<fecha>25/02/2023</fecha>
+<isbn>23-59-6789</isbn>
+<caracteristicas>
+<numPaginas>430</numPaginas>
+<calidad formato="bolsillo"/>
+</caracteristicas>
+<ubicacion sede="norte"/>
+</libro>
+
+<libro codigo="L02" titulo="El prisionero del cielo">
+<autor>Carlos Ruiz Zafon</autor>
+<editorial nombre="Libros del KO"/>
+<fecha>26/02/2023</fecha>
+<isbn>02-43-0689</isbn>
+<donacion>40€</donacion>
+<caracteristicas>
+<numPaginas>350</numPaginas>
+<calidad formato="rustica"/>
+</caracteristicas>
+<ubicacion sede="sur"/>
+</libro>
+
+
+</biblioteca>

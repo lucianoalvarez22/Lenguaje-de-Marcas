@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE viajes [
+<!ELEMENT viajes (francia, españa, italia)>
+   <!ELEMENT francia (ciudad+)>
+   <!ELEMENT españa (ciudad+)>
+   <!ELEMENT italia (ciudad+)>
+   <!ELEMENT ciudad (#PCDATA)>
+]>
+<viajes>
+<francia>
+<ciudad>Lyon</ciudad>
+</francia>
+
+<españa>
+<ciudad>Sevilla</ciudad>
+<ciudad>Cordoba</ciudad>
+<ciudad>Santander</ciudad>
+</españa>
+
+<italia>
+<ciudad>Milan</ciudad>
+</italia>
+
+</viajes>
+
+<!--Le he puesto el elemento ciudad a los elementos francia, españa e italia. Tenian que tener como minimo un elemento ciudad -->
+

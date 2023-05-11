@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Ejercicio07Schema.xsd">
+
+
+<libro codigo="L01" titulo="La sombra del viento">
+<autor>Carlos Ruiz Zafon</autor>
+<editorial>PlanetaLibros</editorial>
+<edicion>5</edicion>
+<isbn>9780974872407</isbn>
+<ubicacion sede="norte"/>
+</libro>
+
+<libro codigo="L02" titulo="El prisionero del cielo">
+<autor>Carlos Ruiz Zafon</autor>
+<editorial>PlanetaLibros</editorial>
+<edicion>4</edicion>
+<isbn>978033562407</isbn>
+<donacion>40€</donacion>
+<ubicacion sede="sur"/>
+</libro>
+
+
+</biblioteca>
